@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Interactividad de los elementos del proyecto**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/DESARROLLO_MULTIMEDIA_WEB_CF8/](https://ecored-sena.github.io/DESARROLLO_MULTIMEDIA_WEB_CF8/)
 
 #
 

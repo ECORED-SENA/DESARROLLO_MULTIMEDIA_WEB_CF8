@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Interactividad de los elementos del proyecto',
+    descripcionCurso:
+      'En este módulo se contextualizará en la utilización de elementos interactivos, sus características principales y cómo se puede crear un producto final a partir de los mismos. Recorriendo las etapas necesarias para su construcción, conceptos base y enfoques de interacción, sus componentes y desarrollo.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -32,31 +33,94 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Elementos Interactivos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Elementos',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Características de los elementos interactivos',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Elementos interactivos de la interfaz de usuario',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Etapas de un producto multimedia interactivo',
+            hash: 't_1_4',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Guion Interactivo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: '¿Cómo elaborar un guion multimedia?',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Editores de código',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Entornos de Desarrollo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Elementos',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Características de los elementos interactivos',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Elementos interactivos de la interfaz de usuario',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Etapas de un producto multimedia interactivo',
+            hash: 't_3_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.5',
+            titulo: 'Etapas de un producto multimedia interactivo',
+            hash: 't_3_5',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,32 +165,178 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Elementos interactivos',
+      referencia:
+        'Design Thinking 24/7 (s.f.) Fase 4 – prototipar. [video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=khN4JGmmelE',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Elementos interactivos',
+      referencia:
+        'Digguzz, (s.f.) Como crear botones y animaciones en InDesign y exportación interactiva. [video]. Youtube.',
+      tipo: 'Video',
+      descarga: 'https://www.youtube.com/watch?v=21X1uK5-JHY',
+    },
+    {
+      tema: 'Elementos interactivos',
+      referencia:
+        'Donno, K., (s.f.) Insertar Imágenes y botones en HTML . [video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=KAtS0JOpHXI',
+    },
+    {
+      tema: 'Entornos de desarrollo',
+      referencia:
+        'Electrónica y Telecomunicaciones, (2019) Entorno de desarrollo integrado - IDE (Integrated Development Environment). [video]. Youtube',
+      tipo: 'Video',
+      descarga: 'https://www.youtube.com/watch?v=Jdf1xOm_kwI',
+    },
+    {
+      tema: 'Entornos de desarrollo',
+      referencia:
+        'EduCaixaTV (s.f.) Prototipo: ¿Cómo construir mi propuesta?. [video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=yCOg_O9e6Dg',
+    },
+    {
+      tema: 'Elementos interactivos',
+      referencia:
+        'Generación Aprende (s.f.) ¿Cómo crear presentaciones en Google Drive Google Slides? [video]. Youtube.',
+      tipo: 'Video',
+      descarga: 'https://www.youtube.com/watch?v=RWeRIhecWZw',
+    },
+    {
+      tema: 'Elementos interactivos',
+      referencia:
+        'Vásquez, D. (s.f.) Botones de Acción en Power Point. [video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=3oU28kxR1lY',
+    },
+    {
+      tema: 'Elementos interactivos',
+      referencia:
+        'Calderón, J., (s.f.) Creación de botones para un PDF interactivo en Indesign. [video]. Youtube.',
+      tipo: 'Video',
+      descarga: 'https://www.youtube.com/watch?v=klsXOAE8ElM',
+    },
+    {
+      tema: 'Guion interactivo',
+      referencia:
+        'Niguez, J., (2021) Top5 mejores editores de código. [video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=2mCNj4SSYcA',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Aplicación Web',
+      significado:
+        '¿Qué es una web app o aplicación web? Básicamente es un sitio que, tras ser tratado por un programador, se ha podido adaptar para que los usuarios podamos acceder a través de un servidor web utilizando internet mediante un navegador. No importa qué navegador sea (Chrome, Mozilla, Microsoft Edge, etc.) podremos ingresar a ella.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Diapositivas',
+      significado:
+        'Es una hoja física o virtual que contiene datos informativos o descriptivos, dentro de una presentación. ',
+    },
+    {
+      termino: 'Feedback',
+      significado:
+        'Es un término inglés que puede traducirse como realimentación o retroalimentación. Se trata de la alimentación de un sistema a través del regreso de un sector o de un porcentaje de su salida. ',
+    },
+    {
+      termino: 'Interactivo',
+      significado:
+        'Dicho de un programa, que permite una interacción, a modo de diálogo, entre la computadora y el usuario.',
+    },
+    {
+      termino: 'Interfaz',
+      significado:
+        'Es un término que procede del vocablo inglés interface. En informática, esta noción sirve para señalar a la conexión que se da de manera física y a nivel de utilidad entre dispositivos o sistemas. ',
+    },
+    {
+      termino: 'Programa De Diseño',
+      significado:
+        'Un programa de diseño gráfico es aquel que nos permite retocar o modificar imágenes, realizar dibujos, y guardarlos después en distintos formatos.',
+    },
+    {
+      termino: 'Producto Multimedia',
+      significado:
+        'Se utiliza para referirse a cualquier objeto o sistema que utiliza múltiples medios de expresión (físicos o digitales) para presentar o comunicar información. De allí la expresión multimedios. Los medios pueden ser variados, desde texto e imágenes, hasta animación, sonido, vídeo, etc. ',
+    },
+    {
+      termino: 'Prototipado',
+      significado:
+        'El prototipado modela el producto final y permite efectuar un test sobre determinados atributos del mismo sin necesidad de que está disponible. Se trata, simplemente, de testear haciendo uso del modelo.',
+    },
+    {
+      termino: 'Usabilidad',
+      significado:
+        'Medida en la cual un producto puede ser usado por usuarios específicos para conseguir objetivos específicos con efectividad, eficiencia y satisfacción en un contexto de uso especificado. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Aula formativa (2019 octubre 27) Características de los elementos interactivos en un sitio web. [Web log post].',
+      link:
+        'https://blog.aulaformativa.com/caracteristicas-elementos-interactivos-sitio-web/',
+    },
+    {
+      referencia:
+        'Envato-tuts+Bussines (2019) ¿Qué es Google Slides? un excelente software de presentación.',
+      link:
+        'https://business.tutsplus.com/es/articles/what-is-google-slides--cms-29560',
+    },
+    {
+      referencia:
+        'EKON (2020) Entornos de desarrollo: todo lo que sucede en el desarrollo de software.',
+      link: 'https://www.ekon.es/entornos-desarrollo-software/',
+    },
+    {
+      referencia:
+        'Guionnews.com (2017), Aprende cómo se escribe un guion interactivo.',
+      link:
+        'http://www.guionnews.com/2017/03/aprende-como-se-escribe-un-guion.html',
+    },
+    {
+      referencia:
+        'Huenei IT Services (2020) Herramientas para hacer un prototipo interactivo',
+      link:
+        'https://www.huenei.com/herramientas-para-hacer-un-prototipo-interactivo/',
+    },
+    {
+      referencia:
+        'Rincón, J., (2015) El producto multimedia interactivo. (Etapas)',
+      link:
+        'https://jairogarciarincon.com/clase/los-productos-multimedia-interactivos/el-producto-multimedia-interactivo-etapas',
+    },
+    {
+      referencia:
+        'Torres Burriel Studio (2016) Prototipado interactivo: avances en la presentación de diseños ',
+      link:
+        'https://www.torresburriel.com/weblog/2016/03/14/prototipado-interactivo/',
+    },
+    {
+      referencia:
+        'Microsoft (s.f.) Agregar comandos a la presentación con botones de acción ',
+      link:
+        'https://support.microsoft.com/es-es/office/agregar-comandos-a-la-presentaci%C3%B3n-con-botones-de-acci%C3%B3n-7db2c0f8-5424-4780-93cb-8ac2b6b5f6ce',
+    },
+    {
+      referencia:
+        'Samsing, C. (2021) Cómo crear una presentación de SlideShare fácilmente [Plantillas de PowerPoint gratuitas]',
+      link:
+        'https://blog.hubspot.es/marketing/como-crear-una-presentacion-slideshare',
+    },
+    {
+      referencia: 'Ucha, F. (2009) Definición de interactivo. [Definición],',
+      link: 'https://www.definicionabc.com/general/interactivo.php',
+    },
+    {
+      referencia:
+        'Arimetrics (s.f.) Qué es Entorno de desarrollo [Definición],',
+      link: 'https://www.definicionabc.com/general/interactivo.php',
     },
   ],
   creditos: {
@@ -144,6 +354,46 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Eduardo José Velasco Acevedo',
+        cargo: 'Experto Temático',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Juan Manuel Reyes Ramírez',
+        cargo: 'Experto Temático',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Carlos Andrés Suescun Lesmes',
+        cargo: 'Experto Temático',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Olga Lucía Mogollón Carvajal',
+        cargo: 'Experto Temático',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Zvi Daniel Grosman Landáez',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Centro de Diseño y metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -153,19 +403,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Antonio Vecino Valero',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Marcia Elizabeth Solano Alvarez',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -176,18 +420,14 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
