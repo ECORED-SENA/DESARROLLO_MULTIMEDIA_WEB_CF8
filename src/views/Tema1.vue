@@ -92,8 +92,8 @@
               .row.justify-content-center   
                 .col-auto.d-none.d-lg-block
                   img.img-t.ms-2(src='@/assets/curso/tema1/img12.svg', alt='')       
-                .col-lg-11
-                  p.me-2.mb-4(data-aos="fade-down") Inicialmente solo se encontraban en puntos determinados tales como, cafés, restaurantes locales comerciales con el fin de tarea clientes y vender una experiencia diferente del producto que caracterizaba el punto (café, comida, ropa), con el paso del tiempo este fenómeno se amplió de tal forma que hoy en día es común encontrar un <em>hotspot</em> en cualquier lugar y acceder a una conexión inalámbrica. El ejemplo más claro y común es un smartphone que puede incluso cumplir la función de un <em>hotspot</em>, permitiendo compartir el acceso a internet con otros dispositivos.
+                .col-lg-11.col-xl-10.col-xxl-11
+                  p.me-2.mb-4 Inicialmente solo se encontraban en puntos determinados tales como, cafés, restaurantes locales comerciales con el fin de tarea clientes y vender una experiencia diferente del producto que caracterizaba el punto (café, comida, ropa), con el paso del tiempo este fenómeno se amplió de tal forma que hoy en día es común encontrar un <em>hotspot</em> en cualquier lugar y acceder a una conexión inalámbrica. El ejemplo más claro y común es un smartphone que puede incluso cumplir la función de un <em>hotspot</em>, permitiendo compartir el acceso a internet con otros dispositivos.
             .col-lg-4.mb-4
               img.img-t(src='@/assets/curso/tema1/img10.png', alt='')   
         .row.justify-content-center
@@ -215,7 +215,7 @@
       .row.mb-5
         .col-lg-12
           .cajon.color-primario.bg_color1.p-3.mb-4
-            p.m-0.ms-2 <b>Nota: <i>Dentro de la creación podrán surgir una serie de preguntas las cuales apoyarán mucho al momento de desarrollar el contenido como:</i></b> ¿Propósito del proyecto?, ¿A quién estará dirigido?, ¿Cuál será el tema central?, ¿Elementos multimedia para su desarrollo?, ¿Qué <em>hardware</em> se necesita?, ¿Qué programa de edición es el más apropiado?, entre muchas otras.
+            p.m-0.ms-2 <b>Nota: <i>dentro de la creación podrán surgir una serie de preguntas las cuales apoyarán mucho al momento de desarrollar el contenido como:</i></b> ¿Propósito del proyecto?, ¿A quién estará dirigido?, ¿Cuál será el tema central?, ¿Elementos multimedia para su desarrollo?, ¿Qué <em>hardware</em> se necesita?, ¿Qué programa de edición es el más apropiado?, entre muchas otras.
 
       .row.mb-4
         .col-auto
