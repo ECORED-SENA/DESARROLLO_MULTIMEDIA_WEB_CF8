@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 1
-      h1 Elementos Interactivos
+      h1(data-aos="fade-right") Elementos interactivos
     
     .bg_fondo1
       .row.justify-content-center.align-items-center
@@ -27,7 +27,7 @@
             .col-auto.d-none.d-lg-block.p-0
               img.img-t.mt-2(data-aos="zoom-in")(src='@/assets/curso/tema1/img03.svg', alt='')       
             .col-lg-10
-              p(data-aos="fade-down") <b>Hoy en día, resulta más que común la relación sujeto-máquina, donde lo interactivo se puede manifestar desde el jugar a través de algún dispositivo o bien visualizar diverso contenido por medio de cualquier proveedor de servicios streamming, como si fuera una comida a la carta.</b>   
+              p(data-aos="fade-down") <b>Hoy en día, resulta más que común la relación sujeto-máquina, donde lo interactivo se puede manifestar desde el jugar a través de algún dispositivo o bien visualizar diverso contenido por medio de cualquier proveedor de servicios <em>streamming,</em> como si fuera una comida a la carta.</b>   
         .col-lg-4.mb-4
           img.img-t.my-3(data-aos="zoom-in")(src='@/assets/curso/tema1/img05.svg', alt='')  
 
@@ -60,46 +60,46 @@
                 .col-lg-11
                   p.me-3.mb-4(data-aos="fade-down") Las propiedades que se pueden definir para un botón interactivo son: Botones, texto, vínculo, fuente, imagen. Realmente su manipulación es relativamente sencilla para cualquier persona, ya que no se requiere ningún tipo de experticia para crear un botón interactivo.  
               .cajon.color-primario.bg_color1.p-3.mb-4
-                p.m-0.ms-2 De esta forma los usuarios realizan un entorno interactivo con la manipulación de los diferentes botones que existan en determinado medio, su usabilidad, su resultado y la subsecciones derivadas de cada uno de ellos. Hay muchas herramientas hoy en día para su creación como ThingLink, InDesign, Illustrator, entre otros, cuya documentación de como realizarlos es de fácil consulta en la web.
+                p.m-0.ms-2 De esta forma los usuarios realizan un entorno interactivo con la manipulación de los diferentes botones que existan en determinado medio, su usabilidad, su resultado y la subsecciones derivadas de cada uno de ellos. Hay muchas herramientas hoy en día para su creación como ThingLink, InDesign, Illustrator, entre otros, cuya documentación de como realizarlos es de fácil consulta en la <em>web</em>.
 
       .row.justify-content-center(titulo="Menús Desplegables")
         .col-lg-4.mb-4.mb-lg-0
           img.img-t(src='@/assets/curso/tema1/img08.png', alt='')  
         .col-lg-8
-          p.mb-4 Son menús que permiten ser manipulados por el usuario, están diseñados para optimizar espacio en la pantalla principal de una web y por lo general cuentan con submenús. Los menús tienen opciones individuales que se ejecutan sólo si se les da la orden, por lo cual, permite ver todo el listado de categorías que se encuentran en un tema específico y la interacción va a ser guiada por el mismo usuario.   
+          p.mb-4 Son menús que permiten ser manipulados por el usuario, están diseñados para optimizar espacio en la pantalla principal de una <em>web</em> y por lo general cuentan con submenús. Los menús tienen opciones individuales que se ejecutan sólo si se les da la orden, por lo cual, permite ver todo el listado de categorías que se encuentran en un tema específico y la interacción va a ser guiada por el mismo usuario.   
           .row.justify-content-center   
             .col-auto.d-none.d-lg-block
               img.img-t(src='@/assets/curso/tema1/img12.svg', alt='')       
             .col-lg-11
-              p.me-3.mb-4 Las listas desplegables son una combinación de cuadros de texto y menús desplegables y un claro ejemplo de las mismas es la barra de direcciones de un navegador web o las ventanas de ayuda de las aplicaciones. En ella, empezamos a escribir en el campo de texto la palabra deseada y automáticamente, nos aparece una lista donde podemos seleccionar la opción que queramos. El punto clave a tener en cuenta es que el usuario debe navegar la lista para encontrar lo que desea. Además, las opciones disponibles deben ser limitadas.
+              p.me-3.mb-4 Las listas desplegables son una combinación de cuadros de texto y menús desplegables y un claro ejemplo de las mismas es la barra de direcciones de un navegador <em>web</em> o las ventanas de ayuda de las aplicaciones. En ella, empezamos a escribir en el campo de texto la palabra deseada y automáticamente, nos aparece una lista donde podemos seleccionar la opción que queramos. El punto clave a tener en cuenta es que el usuario debe navegar la lista para encontrar lo que desea. Además, las opciones disponibles deben ser limitadas.
 
-      .row.justify-content-center(titulo="Slides")
+      .row.justify-content-center(titulo="<em>Slides</em>")
         .col-lg-8
-          p.mb-5 Slides es instrumento con el cual se pueden crear diapositivas en línea, por intermedio de los slides se pueden observar las presentaciones elaboradas dentro de una interfaz, PowerPoint, documentos de Word, open office, PDF o portafolios. Es decir, subir y compartir información a un público específico con un objetivo de una forma más dinámica.
+          p.mb-5 <em>Slides</em> es instrumento con el cual se pueden crear diapositivas en línea, por intermedio de los <em>slides</em> se pueden observar las presentaciones elaboradas dentro de una interfaz, PowerPoint, documentos de Word, open office, PDF o portafolios. Es decir, subir y compartir información a un público específico con un objetivo de una forma más dinámica.
           .row.justify-content-center  
             .col-auto.d-none.d-lg-block
               img.img-t(src='@/assets/curso/tema1/img12.svg', alt='')       
             .col-lg-11
-              p.me-3.mb-4 Con los slides se pueden crear y compartir presentaciones las cuales pueden incluir videos, textos, imágenes, compartir contenidos por redes sociales y facilita la comunicación ya que se pueden realizar reuniones de presentación de proyectos, sustentaciones, entre otros, en tiempo real sin importar que el público esté en un lugar físico.
+              p.me-3.mb-4 Con los <em>slides</em> se pueden crear y compartir presentaciones las cuales pueden incluir videos, textos, imágenes, compartir contenidos por redes sociales y facilita la comunicación ya que se pueden realizar reuniones de presentación de proyectos, sustentaciones, entre otros, en tiempo real sin importar que el público esté en un lugar físico.
         .col-lg-4
           img.img-t(src='@/assets/curso/tema1/img09.png', alt='')  
 
-      .row.justify-content-center(titulo="Hotspots")
+      .row.justify-content-center(titulo="<em>Hotspots</em>")
         .col-lg-12
-          p.ms-3 Es un enlace directo que ofrece cobertura por intermedio de un dispositivo con el fin de facilitar una comunicación inalámbrica, es decir un Wifi, se activa fácilmente, ya que se hace por medio del nombre del dispositivo anclado, este posee un usuario y contraseña, de igual forma determina algunas características concretas sobre la conexión, una de ellas puede ser delimitar qué tantas personas pueden acceder a la conexión.
+          p.ms-3 Es un enlace directo que ofrece cobertura por intermedio de un dispositivo con el fin de facilitar una comunicación inalámbrica, es decir un wifi, se activa fácilmente, ya que se hace por medio del nombre del dispositivo anclado, este posee un usuario y contraseña, de igual forma determina algunas características concretas sobre la conexión, una de ellas puede ser delimitar qué tantas personas pueden acceder a la conexión.
           .row.justify-content-center.align-items-center
             .col-lg-8
               .row.justify-content-center   
                 .col-auto.d-none.d-lg-block
                   img.img-t.ms-2(src='@/assets/curso/tema1/img12.svg', alt='')       
                 .col-lg-11
-                  p.me-2.mb-4(data-aos="fade-down") Inicialmente solo se encontraban en puntos determinados tales como, cafés, restaurantes locales comerciales con el fin de tarea clientes y vender una experiencia diferente del producto que caracterizaba el punto (café, comida, ropa), con el paso del tiempo este fenómeno se amplió de tal forma que hoy en día es común encontrar un hotspots en cualquier lugar y acceder a una conexión inalámbrica. El ejemplo más claro y común es un smartphone que puede incluso cumplir la función de un hotspots, permitiendo compartir el acceso a internet con otros dispositivos.
+                  p.me-2.mb-4(data-aos="fade-down") Inicialmente solo se encontraban en puntos determinados tales como, cafés, restaurantes locales comerciales con el fin de tarea clientes y vender una experiencia diferente del producto que caracterizaba el punto (café, comida, ropa), con el paso del tiempo este fenómeno se amplió de tal forma que hoy en día es común encontrar un <em>hotspot</em> en cualquier lugar y acceder a una conexión inalámbrica. El ejemplo más claro y común es un smartphone que puede incluso cumplir la función de un <em>hotspot</em>, permitiendo compartir el acceso a internet con otros dispositivos.
             .col-lg-4.mb-4
               img.img-t(src='@/assets/curso/tema1/img10.png', alt='')   
         .row.justify-content-center
           .col-lg-12
             .cajon.color-primario.bg_color1.p-3.mb-4
-              p.m-0.ms-2 Se encuentran dos tipos de hotspot, WiFi gratuito, por lo general van asociados a un servicio, es decir al momento de ingresar a un establecimiento público o comercial, no se puede acceder con facilidad al wifi, ya que el servicio a internet se permite si el usuario adquiere un servicio del lugar donde este se encuentre, es decir realizar una (compra), WiFi portátil, esta conexión se da por intermedio de un dispositivo portátil que tenga servicio de internet el cual es compartido fácilmente, un ejemplo claro es a través de los teléfonos inteligentes o tabletas utilizando un plan de dato.
+              p.m-0.ms-2 Se encuentran dos tipos de <em>hotspot</em>, wifi gratuito, por lo general van asociados a un servicio, es decir al momento de ingresar a un establecimiento público o comercial, no se puede acceder con facilidad al wifi, ya que el servicio a internet se permite si el usuario adquiere un servicio del lugar donde este se encuentre, es decir realizar una (compra), wifi portátil, esta conexión se da por intermedio de un dispositivo portátil que tenga servicio de internet el cual es compartido fácilmente, un ejemplo claro es a través de los teléfonos inteligentes o tabletas utilizando un plan de dato.
 
       .row.justify-content-center(titulo="Formularios")
         .col-lg-4.mb-4.mb-lg-0
@@ -117,7 +117,7 @@
     #t_1_2.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
         h2 1.2 Características de los elementos interactivos 
 
-    p La característica principal del diseño web podría decirse que es la interactividad, ya que por medio de sus interfaces se generan diversas capas de interacción dependiendo si es un sitio web o una aplicación, las animaciones son el estandarte del diseño web, por tal motivo estas deben tener una serie de características que son importantes al crear animaciones y que se podrán ver a continuación:
+    p La característica principal del diseño <em>web</em> podría decirse que es la interactividad, ya que por medio de sus interfaces se generan diversas capas de interacción dependiendo si es un sitio <em>web</em> o una aplicación, las animaciones son el estandarte del diseño <em>web</em>, por tal motivo estas deben tener una serie de características que son importantes al crear animaciones y que se podrán ver a continuación:
 
     .row.justify-content-center.mb-5
       .col-md-4.mb-4.mb-lg-0
@@ -125,15 +125,15 @@
           img(src='@/assets/curso/tema1/img13.svg')
       .col-md-8.mb-5.mb-md-0(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
-          p.text-small.mt-3.mt-lg-0(numero="1" titulo="Sutileza") Esto con el fin de generar una estética y diseño al elemento interactivo, permitiendo que la vista del diseño sea y se vea uniforme, que se perciba como una unidad captando la atención del usuario y su contexto de interfaz web, es decir crear elementos que sean de una misma línea, en textos, colores, formas y demás. 
+          p.text-small.mt-3.mt-lg-0(numero="1" titulo="Sutileza") Esto con el fin de generar una estética y diseño al elemento interactivo, permitiendo que la vista del diseño sea y se vea uniforme, que se perciba como una unidad captando la atención del usuario y su contexto de interfaz <em>web</em>, es decir crear elementos que sean de una misma línea, en textos, colores, formas y demás. 
           
           p.text-small.mt-3.mt-lg-0(numero="2" titulo="Fluidez") Es importante que las animaciones sean fluidas, evitando que la persona que desee interactuar con el contenido se sienta afectado al momento de su interacción y no sea compleja su utilización al momento de la animación. Este es el efecto de cómo pasa de ser una pieza lenta a rápida o viceversa, para tal fin es pertinente realizar una configuración adecuada para el tipo de animación a diseñar, tenga en cuenta siempre la velocidad, su secuencia y el tiempo haciendo referencia al contexto real.
           
-          p.text-small.mt-3.mt-lg-0(numero="3" titulo="Informar") Otra característica importante es que la pieza creada sea informativa, dando a conocer el uso de los elementos interactivos de la pieza, por ejemplo, si hay una imagen demasiado grande que ocupe un espacio significativo en la animación es pertinente añadir una flecha, la cual indique que se debe desplazar para el lado que el diseñador determine con el fin brindar información y ser dirigido a una sección diferente con tan solo hacer un clic, así se podrá encontrar un sentido a la creación dentro de la composición, las animaciones brindan información de manera visual a los usuarios, permitiendo reconocer ciertos procesos dentro de la animación.  
+          p.text-small.mt-3.mt-lg-0(numero="3" titulo="Informar") Otra característica importante es que la pieza creada sea <b>informativa</b>, dando a conocer el uso de los elementos interactivos de la pieza, por ejemplo, si hay una imagen demasiado grande que ocupe un espacio significativo en la animación es pertinente añadir una flecha, la cual indique que se debe desplazar para el lado que el diseñador determine con el fin brindar información y ser dirigido a una sección diferente con tan solo hacer un clic, así se podrá encontrar un sentido a la creación dentro de la composición, las animaciones brindan información de manera visual a los usuarios, permitiendo reconocer ciertos procesos dentro de la animación.  
           
-          p.text-small.mt-3.mt-lg-0(numero="4" titulo="Preciso") Cabe resaltar que no se debe hacer una animación por cada elemento del sitio web, esto primero será muy complejo de entender por parte del usuario y no creará la atención requerida, por ser un contexto saturado. Lo ideal es añadir interfaces de fácil manejo (botones o enlaces), para esta acción es importante determinar los elementos necesarios que realmente deban formar parte de una animación para darle sentido en la página.
+          p.text-small.mt-3.mt-lg-0(numero="4" titulo="Preciso") Cabe resaltar que no se debe hacer una animación por cada elemento del sitio <em>web</em>, esto primero será muy complejo de entender por parte del usuario y no creará la atención requerida, por ser un contexto saturado. Lo ideal es añadir interfaces de fácil manejo (botones o enlaces), para esta acción es importante determinar los elementos <b>necesarios</b> que realmente deban formar parte de una animación para darle sentido en la página.
 
-          p.text-small(numero="5" titulo="Rapidez") Y no menos importante es la rapidez de carga de la página y su contenido, de lo contrario perderá fácilmente el interés por el contenido, es aquí cuando la experiencia que se desee plasmar en el contenido comienza a ser importante para captar la atención de un público, así que el creador debe asegurar que el diseño planteado se encuentre optimizado para la velocidad, por tal razón al momento de crear los efectos de animación de los elementos interactivos es importante hacerlos fluidos en conjunto y rápidos, debe tener en cuenta en configurarlos con la velocidad indicada permitiendo que los efectos sean notorios por los usuarios, es así como las interacciones comunican un mensaje de forma visual. 
+          p.text-small(numero="5" titulo="Rapidez") Y no menos importante es la <b>rapidez</b> de carga de la página y su contenido, de lo contrario perderá fácilmente el interés por el contenido, es aquí cuando la experiencia que se desee plasmar en el contenido comienza a ser importante para captar la atención de un público, así que el creador debe asegurar que el diseño planteado se encuentre optimizado para la velocidad, por tal razón al momento de crear los efectos de animación de los elementos interactivos es importante hacerlos fluidos en conjunto y rápidos, debe tener en cuenta en configurarlos con la velocidad indicada permitiendo que los efectos sean notorios por los usuarios, es así como las interacciones comunican un mensaje de forma visual. 
          
     Separador 
 
@@ -176,7 +176,7 @@
             .col-auto.d-none.d-lg-block.p-0
               img.img-t(src='@/assets/curso/tema1/img12.svg', alt='')       
             .col-lg-11
-              p(data-aos="fade-down") <b>Asimismo, es necesario informar de los errores, efectos y confirmación de acciones que se lleven a cabo en cada momento, la realimentación debe ser fácil de leer y entender. Para ello, se debe fomentar su consistencia y el almacenamiento de información adicional para asegurar el feedback.</b>
+              p(data-aos="fade-down") <b>Asimismo, es necesario informar de los errores, efectos y confirmación de acciones que se lleven a cabo en cada momento, la realimentación debe ser fácil de leer y entender. Para ello, se debe fomentar su consistencia y el almacenamiento de información adicional para asegurar el <em>feedback</em>.</b>
 
       Separador 
 
@@ -215,7 +215,7 @@
       .row.mb-5
         .col-lg-12
           .cajon.color-primario.bg_color1.p-3.mb-4
-            p.m-0.ms-2 <b>Nota: <i>Dentro de la creación podrán surgir una serie de preguntas las cuales apoyarán mucho al momento de desarrollar el contenido como:</i></b> ¿Propósito del proyecto?, ¿A quién estará dirigido?, ¿Cuál será el tema central?, ¿Elementos multimedia para su desarrollo?, ¿Qué hardware se necesita?, ¿Qué programa de edición es el más apropiado?, entre muchas otras.
+            p.m-0.ms-2 <b>Nota: <i>Dentro de la creación podrán surgir una serie de preguntas las cuales apoyarán mucho al momento de desarrollar el contenido como:</i></b> ¿Propósito del proyecto?, ¿A quién estará dirigido?, ¿Cuál será el tema central?, ¿Elementos multimedia para su desarrollo?, ¿Qué <em>hardware</em> se necesita?, ¿Qué programa de edición es el más apropiado?, entre muchas otras.
 
       .row.mb-4
         .col-auto
@@ -231,7 +231,7 @@
               .row.justify-content-center
                 .col-lg-9.align-self-end
                   h4 Diseño de la interfaz
-                  p en esta etapa de determina la estructura de los contenidos, se realizan bocetos, se crean los storyboards, se hace una bitácora almacenando todo lo pertinente del diseño y su interfaz.        
+                  p En esta etapa se determina la estructura de los contenidos, se realizan bocetos, se crean los <em>storyboards</em>, se hace una bitácora almacenando todo lo pertinente del diseño y su interfaz.        
                 .col-lg-3.mt-3
                   figure
                     img.img-t.mx-auto.d-none.d-lg-block(src='@/assets/curso/tema1/img21.svg', alt='AvatarTop')
@@ -277,7 +277,7 @@
           .col-auto
             .bg_5.p-3
               h4.text-white.m-0 Evaluación
-        p.mb-5 Todo producto requiere de un proceso de ensayos y evaluación (prueba – error), esto con el fin de esperar feedback para saber que se mejora para el lanzamiento.
+        p.mb-5 Todo producto requiere de un proceso de ensayos y evaluación (prueba – error), esto con el fin de esperar <em>feedback</em> para saber que se mejora para el lanzamiento.
         .row.mb-4
           .col-auto
             .bg_5.p-3
@@ -288,6 +288,8 @@
             .bg_5.p-3
               h4.text-white.m-0 Implementación
         p Es la fase final del proceso de creación y la fase inicial de la puesta en marcha buscando conseguir el propósito inicialmente planteado.
+
+    p Con la información de los ítems anteriores, el paso a seguir es realizar las etapas del proyecto interactivo, centrándose en una idea y comenzando a planear, apoyándose en las posibles preguntas de planteamiento para el desarrollo de contenidos, hasta la realización del producto. 
 
 
       

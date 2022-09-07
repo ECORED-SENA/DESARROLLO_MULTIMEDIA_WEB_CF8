@@ -33,7 +33,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Elementos Interactivos',
+        titulo: 'Elementos interactivos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -93,49 +93,37 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Elementos',
+            titulo: 'Implementación de un entorno de desarrollo',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Características de los elementos interactivos',
+            titulo: 'Construcción del prototipo de un proyecto',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Elementos interactivos de la interfaz de usuario',
+            titulo: 'Herramientas para hacer un prototipo interactivo',
             hash: 't_3_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Etapas de un producto multimedia interactivo',
+            titulo: '¿Qué es un Prototipo?',
             hash: 't_3_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.5',
-            titulo: 'Etapas de un producto multimedia interactivo',
+            titulo: 'Etapas de Prototipado',
             hash: 't_3_5',
           },
         ],
       },
     ],
     subMenu: [
-      {
-        icono: 'fas fa-sitemap',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -176,7 +164,7 @@ export default {
       referencia:
         'Digguzz, (s.f.) Como crear botones y animaciones en InDesign y exportación interactiva. [video]. Youtube.',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=21X1uK5-JHY',
+      link: 'https://www.youtube.com/watch?v=21X1uK5-JHY',
     },
     {
       tema: 'Elementos interactivos',
@@ -190,7 +178,7 @@ export default {
       referencia:
         'Electrónica y Telecomunicaciones, (2019) Entorno de desarrollo integrado - IDE (Integrated Development Environment). [video]. Youtube',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=Jdf1xOm_kwI',
+      link: 'https://www.youtube.com/watch?v=Jdf1xOm_kwI',
     },
     {
       tema: 'Entornos de desarrollo',
@@ -204,7 +192,7 @@ export default {
       referencia:
         'Generación Aprende (s.f.) ¿Cómo crear presentaciones en Google Drive Google Slides? [video]. Youtube.',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=RWeRIhecWZw',
+      link: 'https://www.youtube.com/watch?v=RWeRIhecWZw',
     },
     {
       tema: 'Elementos interactivos',
@@ -218,7 +206,7 @@ export default {
       referencia:
         'Calderón, J., (s.f.) Creación de botones para un PDF interactivo en Indesign. [video]. Youtube.',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=klsXOAE8ElM',
+      link: 'https://www.youtube.com/watch?v=klsXOAE8ElM',
     },
     {
       tema: 'Guion interactivo',
@@ -230,9 +218,9 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Aplicación Web',
+      termino: 'Aplicación <em>web</em>',
       significado:
-        '¿Qué es una web app o aplicación web? Básicamente es un sitio que, tras ser tratado por un programador, se ha podido adaptar para que los usuarios podamos acceder a través de un servidor web utilizando internet mediante un navegador. No importa qué navegador sea (Chrome, Mozilla, Microsoft Edge, etc.) podremos ingresar a ella.',
+        '¿Qué es una <em>web</em> <em>app</em> o aplicación <em>web</em>? Básicamente es un sitio que, tras ser tratado por un programador, se ha podido adaptar para que los usuarios podamos acceder a través de un servidor <em>web</em> utilizando internet mediante un navegador. No importa qué navegador sea (Chrome, Mozilla, Microsoft Edge, etc.) podremos ingresar a ella.',
     },
     {
       termino: 'Diapositivas',
@@ -240,7 +228,7 @@ export default {
         'Es una hoja física o virtual que contiene datos informativos o descriptivos, dentro de una presentación. ',
     },
     {
-      termino: 'Feedback',
+      termino: '<em>Feedback</em>',
       significado:
         'Es un término inglés que puede traducirse como realimentación o retroalimentación. Se trata de la alimentación de un sistema a través del regreso de un sector o de un porcentaje de su salida. ',
     },
@@ -255,14 +243,14 @@ export default {
         'Es un término que procede del vocablo inglés interface. En informática, esta noción sirve para señalar a la conexión que se da de manera física y a nivel de utilidad entre dispositivos o sistemas. ',
     },
     {
-      termino: 'Programa De Diseño',
+      termino: 'Programa de diseño',
       significado:
         'Un programa de diseño gráfico es aquel que nos permite retocar o modificar imágenes, realizar dibujos, y guardarlos después en distintos formatos.',
     },
     {
-      termino: 'Producto Multimedia',
+      termino: 'Producto multimedia',
       significado:
-        'Se utiliza para referirse a cualquier objeto o sistema que utiliza múltiples medios de expresión (físicos o digitales) para presentar o comunicar información. De allí la expresión multimedios. Los medios pueden ser variados, desde texto e imágenes, hasta animación, sonido, vídeo, etc. ',
+        'Se utiliza para referirse a cualquier objeto o sistema que utiliza múltiples medios de expresión (físicos o digitales) para presentar o comunicar información. De allí la expresión multimedios. Los medios pueden ser variados, desde texto e imágenes, hasta animación, sonido, video, etc. ',
     },
     {
       termino: 'Prototipado',
@@ -278,19 +266,19 @@ export default {
   referencias: [
     {
       referencia:
-        'Aula formativa (2019 octubre 27) Características de los elementos interactivos en un sitio web. [Web log post].',
+        'Aula formativa (2019 octubre 27) Características de los elementos interactivos en un sitio <em>web</em>. [Web log post].',
       link:
         'https://blog.aulaformativa.com/caracteristicas-elementos-interactivos-sitio-web/',
     },
     {
       referencia:
-        'Envato-tuts+Bussines (2019) ¿Qué es Google Slides? un excelente software de presentación.',
+        'Envato-tuts+Bussines (2019) ¿Qué es Google Slides? un excelente <em>software</em> de presentación.',
       link:
         'https://business.tutsplus.com/es/articles/what-is-google-slides--cms-29560',
     },
     {
       referencia:
-        'EKON (2020) Entornos de desarrollo: todo lo que sucede en el desarrollo de software.',
+        'EKON (2020) Entornos de desarrollo: todo lo que sucede en el desarrollo de <em>software</em>.',
       link: 'https://www.ekon.es/entornos-desarrollo-software/',
     },
     {
@@ -356,37 +344,37 @@ export default {
       },
       {
         nombre: 'Eduardo José Velasco Acevedo',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
       {
         nombre: 'Juan Manuel Reyes Ramírez',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
       {
         nombre: 'Carlos Andrés Suescun Lesmes',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
       {
         nombre: 'Olga Lucía Mogollón Carvajal',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
       {
         nombre: 'Zvi Daniel Grosman Landáez',
-        cargo: 'Diseñador Instruccional',
+        cargo: 'Diseñador instruccional',
         centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
       {
         nombre: 'Carolina Coca Salazar',
         cargo: 'Revisora metodológica y pedagógica',
-        centro: 'Centro de Diseño y metrología - Regional Distrito Capital',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
         nombre: 'Jhon Jairo Rodríguez Pérez',
@@ -415,7 +403,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -423,8 +411,7 @@ export default {
       {
         nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
     gestoresRepositorio: [

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 2
-      h1 Guion interactivo
+      h1(data-aos="fade-right") Guion interactivo
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
@@ -13,7 +13,7 @@
       .col-lg-8
         p.mb-4 Es un proceso descriptivo que detalla claramente todas las escenas audiovisuales, las cuales se pueden plasmar en un ordenador de escritorio, portátil, móviles o consolas de videojuegos, un guion multimedia es una historia contada a través de imágenes, describe cada pantallazo, es decir que se ve al momento de interactuar con el contexto, por tanto, es importante la narración en orden secuencial que la historia desarrolla en el producto audiovisual, un guion audiovisual permite combinar diferentes representaciones para los contenidos, los cuales pueden ser en imagen, sonido, texto, video, animación e interactividad. 
         .cajon.color-secundario.bg_color2.p-3.mb-4
-          p.m-0.ms-2 Nota: El lenguaje adecuado debe ser visual y sonoro, no se debe confundir con un guion literario.
+          p.m-0.ms-2 Nota: el lenguaje adecuado debe ser visual y sonoro, no se debe confundir con un guion literario.
 
     #t_2_1.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
         h2 2.1 ¿Cómo elaborar un guion multimedia?
@@ -70,7 +70,7 @@
             
             .row.justify-content-center.align-items-center
               .col-lg-9.align-self-end
-                h4 Guion Técnico
+                h4 Guion técnico
                 p Permite identificar que metodología se va a realizar, con qué programas se puede desarrollar, define los diseños de pantalla y los formatos de presentación.   
               .col-lg-3.mt-4
                 figure
@@ -113,9 +113,9 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8
-        p.mb-4 Es un instrumento diseñado especialmente para desarrollar una acción específica, la cual se trata de editar archivos de escritura y modificación de códigos web. 
+        p.mb-4 Es un instrumento diseñado especialmente para desarrollar una acción específica, la cual se trata de editar archivos de escritura y modificación de códigos <em>web</em>. 
         .cajon.color-secundario.bg_color2.p-3.mb-4
-          p.m-0.ms-2 Es este aparte se mencionarán los cinco editores de código más utilizados por los diseñadores y programadores web en la actualidad (programas gratuitos), cabe aclarar que no existe un top de editores de código, dejando claro que si se opta por tomar otro tipo de editor lo podrá realizar sin ningún inconveniente, aquí se mencionarán algunas de las características más importantes de las herramientas:
+          p.m-0.ms-2 Es este aparte se mencionarán los cinco editores de código más utilizados por los diseñadores y programadores <em>web</em> en la actualidad (programas gratuitos), cabe aclarar que no existe un top de editores de código, dejando claro que si se opta por tomar otro tipo de editor lo podrá realizar sin ningún inconveniente, aquí se mencionarán algunas de las características más importantes de las herramientas:
       .col-lg-4
         img.img-t(data-aos="fade-right")(src='@/assets/curso/tema2/img13.svg', alt='')    
 
@@ -128,7 +128,7 @@
           .col-md-9
             h4 Sublime Text
             p Es un editor de código y texto para Windows, Linux y Mac, cuenta con una variedad de temas incorporados y una personalización total de la interfaz, con soporte para varios lenguajes de marcado y programación.
-            p Este editor de código permite realizar ediciones de archivos de forma eficaz y rápida, esto hace que sea muy utilizado por los usuarios en el entorno de la programación, cuenta con una diversidad de plugins aprovechables para instalar, multiplicando la interfaz y su funcionalidad, dentro de sus características principales se encuentran; resaltado de sintaxis, sangría automática, reconocimiento del tipo de archivo, barra lateral con archivos del directorio mencionado, macros, complemento y paquetes, de igual forma ofrece a los usuarios los siguientes beneficios; capacidad para resolver errores del enlazador, realiza seguimiento de todos los archivos y carpetas con los que trabajar, tiene conectividad con sistemas de control de versiones como git, mercurial, mantiene el esquema de color para el esquema de sintaxis.
+            p Este editor de código permite realizar ediciones de archivos de forma eficaz y rápida, esto hace que sea muy utilizado por los usuarios en el entorno de la programación, cuenta con una diversidad de <em>plugins</em> aprovechables para instalar, multiplicando la interfaz y su funcionalidad, dentro de sus características principales se encuentran; resaltado de sintaxis, sangría automática, reconocimiento del tipo de archivo, barra lateral con archivos del directorio mencionado, macros, complemento y paquetes, de igual forma ofrece a los usuarios los siguientes beneficios; capacidad para resolver errores del enlazador, realiza seguimiento de todos los archivos y carpetas con los que trabajar, tiene conectividad con sistemas de control de versiones como git, mercurial, mantiene el esquema de color para el esquema de sintaxis.
               
       .py-3.py-md-4(titulo="Visual Studio Code")
         .row.align-items-center
@@ -148,7 +148,7 @@
           .col-md-9
             h4 Atom
             p Este editor de texto es compatible con Windows y Mac
-            p Es un editor de texto web de fuente abierta desarrollado por GitHub, Su principal característica es que soporta la colaboración de código en tiempo real, muy similar aun drive ya que los archivos quedan subidos y cargados lo cual permite trabajar en un proyecto unificado y tiene la capacidad de codificar sus propios cambios en la interfaz con HTML y CSS.
+            p Es un editor de texto <em>web</em> de fuente abierta desarrollado por GitHub, Su principal característica es que soporta la colaboración de código en tiempo real, muy similar aun drive ya que los archivos quedan subidos y cargados lo cual permite trabajar en un proyecto unificado y tiene la capacidad de codificar sus propios cambios en la interfaz con HTML y CSS.
 
       .py-3.py-md-4(titulo="Brackets")
         .row.align-items-center
@@ -158,7 +158,7 @@
           .col-md-9
             h4 Brackets
             p Desarrollado por Adobe y disponible para Windows, Mac y Linux 
-            p Este editor de código es compatible con HTML, CSS, JavaScript, es una herramienta relativamente nueva en el mercado de los programadores, cuenta con algunas características que lo hacen de fácil manejo para los usuarios, permite añadir plugins las cuales permiten un mejor interfaz ya que puede aumentar su funcionalidad, de igual forma incluye una vista previa en vivo que permite ver los cambios que se van realizando en el código de un navegador web y detectar fácilmente posibles errores de código, también se ajusta y brinda soporte para preprocesador, tiene una opción de buscar y reemplazar, puede compartir extensiones y su detalle de sintaxis es óptimo.        
+            p Este editor de código es compatible con HTML, CSS, JavaScript, es una herramienta relativamente nueva en el mercado de los programadores, cuenta con algunas características que lo hacen de fácil manejo para los usuarios, permite añadir <em>plugins</em> las cuales permiten un mejor interfaz ya que puede aumentar su funcionalidad, de igual forma incluye una vista previa en vivo que permite ver los cambios que se van realizando en el código de un navegador <em>web</em> y detectar fácilmente posibles errores de código, también se ajusta y brinda soporte para preprocesador, tiene una opción de buscar y reemplazar, puede compartir extensiones y su detalle de sintaxis es óptimo.        
       
       .py-3.py-md-4(titulo="Notepad++")
         .row.align-items-center

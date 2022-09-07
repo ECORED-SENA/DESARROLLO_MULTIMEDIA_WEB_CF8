@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 3
-      h1 Entornos de Desarrollo
+      h1(data-aos="fade-right") Entornos de Desarrollo
 
     .row.justify-content-center
       .col-lg-12
@@ -15,12 +15,12 @@
     .bloque-texto-d.color-primario.p-4.mb-4
       .bloque-texto-d__texto.mb-2
         i.fas.fa-quote-left
-        h4.text-regular Un entorno de desarrollo es un conjunto de procedimientos y herramientas que se utilizan para desarrollar un código fuente o programa. Este término se utiliza a veces como sinónimo de entorno de desarrollo integrado (IDE), que es la herramienta de desarrollo de software utilizado para escribir, generar, probar y depurar un programa. También proporcionan a los desarrolladores una interfaz de usuario común (UI) para desarrollar y depurar en diferentes modos. A la hora de elegir en entorno de desarrollo o IDE (Integrated Development Environment) es fundamental tener definido qué lenguaje de programación se va a utilizar tanto en el Frontend (la parte visible de la web) como en el Backend.”  
+        h4.text-regular Un entorno de desarrollo es un conjunto de procedimientos y herramientas que se utilizan para desarrollar un código fuente o programa. Este término se utiliza a veces como sinónimo de entorno de desarrollo integrado (IDE), que es la herramienta de desarrollo de <em>software</em> utilizado para escribir, generar, probar y depurar un programa. También proporcionan a los desarrolladores una interfaz de usuario común (UI) para desarrollar y depurar en diferentes modos. A la hora de elegir en entorno de desarrollo o IDE (Integrated Development Environment) es fundamental tener definido qué lenguaje de programación se va a utilizar tanto en el <em>Frontend</em> (la parte visible de la <em>web</em>) como en el Backend.”  
         i.fas.fa-quote-right
       .bloque-texto-d__autor 
         .h5.mb-0 Arimetrics (s.f.)
     
-    p.mb-5 Se puede afirmar que un entorno de desarrollo es un proceso completo de gestión del progreso de un software.
+    p.mb-5 Se puede afirmar que un entorno de desarrollo es un proceso completo de gestión del progreso de un <em>software</em>.
 
     #t_3_1.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
         h2 3.1 Implementación de un entorno de desarrollo
@@ -33,9 +33,9 @@
           .col-auto.d-none.d-lg-block
             img.img-t(src='@/assets/curso/tema3/img26.svg', alt='')       
           .col-lg-11
-            p.mb-4(data-aos="fade-down") Esta herramienta es muy utilizada por los desarrolladores y que por intermedio de ella optimiza el trabajo, ya que a través de ella se podrá actualizar toda la información pertinente de un proyecto de igual forma se podrá hacer control de las versiones, permitiendo tener tiempos más cortos de trabajo y el mejoramiento del software. 
+            p.mb-4(data-aos="fade-down") Esta herramienta es muy utilizada por los desarrolladores y que por intermedio de ella optimiza el trabajo, ya que a través de ella se podrá actualizar toda la información pertinente de un proyecto de igual forma se podrá hacer control de las versiones, permitiendo tener tiempos más cortos de trabajo y el mejoramiento del <em>software</em>. 
         .cajon.color-secundario.bg_color2.p-3.mb-4
-          p.m-0.ms-2 En el proceso de desarrollo de un software se encuentran entornos de desarrollo que se van integrando a la medida que el proceso va avanzando, los cuales se mencionarán a continuación:
+          p.m-0.ms-2 En el proceso de desarrollo de un <em>software</em> se encuentran entornos de desarrollo que se van integrando a la medida que el proceso va avanzando, los cuales se mencionarán a continuación:
 
     .row.justify-content-center
       .col-lg-10
@@ -52,11 +52,11 @@
               figure
                 img.img-t(src='@/assets/curso/tema3/img04.svg', alt='Texto que describa la imagen')                
             .col-lg-9.text-start(data-aos="fade-left")
-              p.m-0 <b>Servidor de integración:</b> en esta etapa la aplicación creada pasa por un estado de ensayo con la finalidad comprobar que no existe falla alguna en el servidor de producción real, para que la aplicación pueda ser implementada en el servidor de producción ésta primero debe ser aprobada.
+              p.m-0 <b>Servidor de integración:</b> en esta etapa la aplicación creada pasa por un estado de ensayo con la finalidad de comprobar que no existe falla alguna en el servidor de producción real. Para que la aplicación pueda ser implementada en el servidor de producción, esta primero debe ser aprobada.
               
           .row.justify-content-center.align-items-center
             .col-lg-9.mb-4.mb-md-0(data-aos="fade-right")
-              p.m-0 <b>Servidor de producción:</b> luego de ser aprobada la aplicación, esta comienza en ser un parte importante dentro del servidor, es el entorno donde finalmente se ejecuta el software, si el entorno de producción del proceso está correctamente configurado, y se han pasado todas las pruebas automatizadas, no habrá ninguna incidencia en la ejecución del software final.           
+              p.m-0 <b>Servidor de producción:</b> luego de ser aprobada la aplicación, esta comienza en ser un parte importante dentro del servidor, es el entorno donde finalmente se ejecuta el <em>software</em>, si el entorno de producción del proceso está correctamente configurado, y se han pasado todas las pruebas automatizadas, no habrá ninguna incidencia en la ejecución del <em>software</em> final.           
             .col-lg-2(data-aos="fade-left")
               figure
                 img.img-t(src='@/assets/curso/tema3/img05.svg', alt='Texto que describa la imagen')
@@ -70,7 +70,7 @@
           .col-auto.d-none.d-lg-block
             img.img-t(src='@/assets/curso/tema3/img26.svg', alt='')       
           .col-lg-11
-            p.mb-4(data-aos="fade-down") Con un entorno de desarrollo cloud no se necesita descargar el software, ya que el sistema no consume gran cantidad de recursos informáticos, por tal razón no es necesario efectuar configuraciones locales, lo que permite que se pueda utilizar de forma inmediata, haciendo que los proyectos se direccionen y ejecuten de forma eficaz y sin complicaciones.
+            p.mb-4(data-aos="fade-down") Con un entorno de desarrollo <em>cloud</em> no se necesita descargar el <em>software</em>, ya que el sistema no consume gran cantidad de recursos informáticos, por tal razón no es necesario efectuar configuraciones locales, lo que permite que se pueda utilizar de forma inmediata, haciendo que los proyectos se direccionen y ejecuten de forma eficaz y sin complicaciones.
       .col-lg-4.mb-4
         img.img-t(src='@/assets/curso/tema3/img06.svg', alt='')    
 
@@ -91,9 +91,9 @@
                   p.text-white.m-0 Entorno de desarrollo integrado - IDE <i>(Integrated Development Environment)</i> 
                   p.text-white Video resumen sobre Entorno de desarrollo integrado
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_General_del_RETIE_vigente_actualizado_a_2015-1.pdf')" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.youtube.com/embed/Jdf1xOm_kwI" target="_blank")
                     span Ver video
-                    i.fas.fa-file-download
+                    i.fas.fa-link
 
     Separador
 
@@ -115,9 +115,9 @@
                   p.text-white.m-0 Prototipo: ¿Cómo construir mi propuesta?
                   p.text-white Conoce más sobre las tipologías de formato de un prototipo.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_General_del_RETIE_vigente_actualizado_a_2015-1.pdf')" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.youtube.com/embed/yCOg_O9e6Dg" target="_blank")
                     span Ver video
-                    i.fas.fa-file-download
+                    i.fas.fa-link
 
     Separador
 
@@ -140,7 +140,7 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row.justify-content-center(titulo="Flinto")
         .col-lg-12
-          p.ms-3 Flinto es una aplicación creada por MacOS, en realidad es muy utilizada por los desarrolladores en la creación de animaciones de desarrollo de software y prototipos interactivos, cuenta con una serie de características que permiten un óptimo desarrollo en el ejercicio de prototipado, a continuación, se harán referencia de ellas:
+          p.ms-3 Flinto es una aplicación creada por MacOS, en realidad es muy utilizada por los desarrolladores en la creación de animaciones de desarrollo de <em>software</em> y prototipos interactivos, cuenta con una serie de características que permiten un óptimo desarrollo en el ejercicio de prototipado, a continuación, se harán referencia de ellas:
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-3
               img.img-t(src='@/assets/curso/tema3/img10.svg', alt='')   
@@ -153,16 +153,16 @@
                   |	Cuenta con la posibilidad de hacer transiciones animadas, siendo un excelente creador de transiciones ya que permite crear animaciones propias de forma bastante sencilla, ya que cuenta con un diseñador de transiciones muy preciso. 
                 li
                   i.fas.fa-caret-right
-                  |	Puede desarrollar diversos comportamientos: Permitiendo la creación de pequeñas interacciones en multi pantalla, permitiendo agregar al contenido animaciones en bucle, botones, animaciones de desplazamiento o interruptores.
+                  |	Puede desarrollar diversos comportamientos: permitiendo la creación de pequeñas interacciones en multi pantalla, permitiendo agregar al contenido animaciones en bucle, botones, animaciones de desplazamiento o interruptores.
                 li
                   i.fas.fa-caret-right
-                  |	Su recurso de desplazamiento: Da la posibilidad de crear áreas desplazables simplemente con un clic, es de mucha utilidad ya que facilita la creación de animaciones.
+                  |	Su recurso de desplazamiento: da la posibilidad de crear áreas desplazables simplemente con un clic, es de mucha utilidad ya que facilita la creación de animaciones.
 
           p.ms-3 <b>Utiliza al máximo sus recursos para dibujo:</b>  ya que cuenta con una serie de herramientas de dibujo que facilitan el proceso de maquetación, y de edición de formas y textos.
 
       .row.justify-content-center(titulo="JustInMind")
         .col-lg-12
-          p.ms-3 JustInMind es una herramienta muy precisa y eficiente al momento de la creación de prototipos, es como un todo en uno, por lo general los desarrolladores la utilizan para el diseño de páginas web, de igual forma su interacción en línea permite que al momento de hacer un proyecto en una amplia gama de elementos creativos, como ejemplo ir desde wireframes clicables hasta prototipos 100% interactivos a fin de tener una idea muy amplia de gestos móviles, cuenta con una serie de características a continuación, se harán referencia de ellas:
+          p.ms-3 JustInMind es una herramienta muy precisa y eficiente al momento de la creación de prototipos, es como un todo en uno, por lo general los desarrolladores la utilizan para el diseño de páginas <em>web</em>, de igual forma su interacción en línea permite que al momento de hacer un proyecto en una amplia gama de elementos creativos, como ejemplo ir desde <em>wireframes</em> clicables hasta prototipos 100% interactivos a fin de tener una idea muy amplia de gestos móviles, cuenta con una serie de características a continuación, se harán referencia de ellas:
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-3
               img.img-t(src='@/assets/curso/tema3/img11.svg', alt='')   
@@ -172,16 +172,16 @@
               ul.lista-ul--color
                 li
                   i.fas.fa-caret-right
-                  |	La herramienta de diseño es muy eficiente: Permitiendo escoger el estilo, el tamaño y cómo distribuir todos los elementos en la interfaz de usuario.  
+                  p.m-0 La herramienta de diseño es muy eficiente: permitiendo escoger el estilo, el tamaño y cómo distribuir todos los elementos en la interfaz de usuario.  
                 li
                   i.fas.fa-caret-right
-                  |	Cuenta con interacciones en línea: Permitiendo crear prácticas web a través de un extenso catálogo de interacciones y animaciones.
+                  p.m-0 Cuenta con interacciones en línea: permitiendo crear prácticas <em>web</em> a través de un extenso catálogo de interacciones y animaciones.
                 li
                   i.fas.fa-caret-right
-                  |	No se limita ya que cuenta con una Infinidad de gestos móviles: Facilitando en el proceso de creación determinar movimientos, con los cuales se podrá deslizar, desplazar, tocar, rotar el modelo de una aplicación móvil.
+                  p.m-0 No se limita ya que cuenta con una infinidad de gestos móviles: facilitando en el proceso de creación determinar movimientos, con los cuales se podrá deslizar, desplazar, tocar, rotar el modelo de una aplicación móvil.
                 li
                   i.fas.fa-caret-right
-                  |	Permite un ajuste automático de tamaño: con el cual se pueden realizar cambios de los elementos de cada página, los cuales por general se agrupan creando un entorno real para la creación, puede fijar los objetos y su libre desplazamiento en pantalla creando una mejor experiencia receptiva del desarrollador. 
+                  p.m-0 Permite un ajuste automático de tamaño: con el cual se pueden realizar cambios de los elementos de cada página, los cuales por general se agrupan creando un entorno real para la creación, puede fijar los objetos y su libre desplazamiento en pantalla creando una mejor experiencia receptiva del desarrollador. 
 
       .row.justify-content-center(titulo="InVision")
         .col-lg-12
@@ -195,16 +195,16 @@
               ul.lista-ul--color
                 li
                   i.fas.fa-caret-right
-                  |	Hace visible quien interactúa en el proyecto con un solo clic y doble clic: Determinando cuál es flujo de usuarios en el prototipo. 
+                  |	Hace visible quien interactúa en el proyecto con un solo clic y doble clic: determinando cuál es flujo de usuarios en el prototipo. 
                 li
                   i.fas.fa-caret-right
-                  |	Cuenta con puntos de entrada a otras ventanas: Habilitando la configuración de enlaces, las cuales se pueden observar en otras pantallas, avances y estado actual del prototipo.
+                  |	Cuenta con puntos de entrada a otras ventanas: habilitando la configuración de enlaces, las cuales se pueden observar en otras pantallas, avances y estado actual del prototipo.
                 li
                   i.fas.fa-caret-right
-                  |	Permite interactuar con el diseño de plantillas: Esta función está habilitada para ordenar plantillas que contengan puntos de acceso, las cuales se podrán observar dentro del prototipo con solo un clic.
+                  |	Permite interactuar con el diseño de plantillas: esta función está habilitada para ordenar plantillas que contengan puntos de acceso, las cuales se podrán observar dentro del prototipo con solo un clic.
                 li
                   i.fas.fa-caret-right
-                  |	Integra unas secuencias de transiciones: Dejando ver que transiciones está teniendo el prototipo con el fin de brindar una experiencia en tiempo real al usuario.
+                  |	Integra unas secuencias de transiciones: dejando ver que transiciones está teniendo el prototipo con el fin de brindar una experiencia en tiempo real al usuario.
 
       .row.justify-content-center(titulo="Fluid")
         .col-lg-12
@@ -218,23 +218,23 @@
               ul.lista-ul--color
                 li
                   i.fas.fa-caret-right
-                  |	Diseño y creación eficaz de prototipos: Cuenta con un kit de interfaz de usuario, adecuado y preconstruido para diseñar materiales, Wireframing, iOS, entre otros. 
+                  |	Diseño y creación eficaz de prototipos: cuenta con un kit de interfaz de usuario, adecuado y preconstruido para diseñar materiales, Wireframing, iOS, entre otros. 
                 li
                   i.fas.fa-caret-right
-                  |	Permite realizar ajustes en tiempo real: Facilitando el trabajo simultáneo en equipo de un mismo prototipo.
+                  |	Permite realizar ajustes en tiempo real: facilitando el trabajo simultáneo en equipo de un mismo prototipo.
                 li
                   i.fas.fa-caret-right
-                  |	Cuenta con vistas previas dinámicas: Las cuales permiten agregar interacciones en el prototipo, hace que el prototipo sea eficiente y que el producto sea llamativo por su interacción visual. 
+                  |	Cuenta con vistas previas dinámicas: las cuales permiten agregar interacciones en el prototipo, hace que el prototipo sea eficiente y que el producto sea llamativo por su interacción visual. 
                 li
                   i.fas.fa-caret-right
-                  |	No tiene restricción de acceso ya que se puede observar e interactuar desde cualquier dispositivo: Dando la posibilidad de interactuar con los prototipos en la app de escritorio, para ello se requiere conexión a la internet.
+                  |	No tiene restricción de acceso ya que se puede observar e interactuar desde cualquier dispositivo: dando la posibilidad de interactuar con los prototipos en la app de escritorio, para ello se requiere conexión a la internet.
                 li
                   i.fas.fa-caret-right
-                  |	Se pueden realizar pruebas en los móviles disponibles: Como ventaja general va a permitir experimentar los prototipos en varios dispositivos móviles, como teléfonos o tablets, para ello se podrán descargar apps de reproducción gratuita.
+                  p Se pueden realizar pruebas en los móviles disponibles: como ventaja general va a permitir experimentar los prototipos en varios dispositivos móviles, como teléfonos o <em>tablets,</em> para ello se podrán descargar <em>apps</em> de reproducción gratuita.
  
       .row.justify-content-center(titulo="Proto.io")
         .col-lg-12
-          p.ms-3 La principal característica de Proto.io es que puede diseñar animaciones para aplicaciones móviles por medio de un TIMELINE, el cual indica cuánto tiempo podrá durar la animación, dentro de sus características principales se encuentran las siguientes:
+          p.ms-3 La principal característica de Proto.io es que puede diseñar animaciones para aplicaciones móviles por medio de un <i>TIMELINE</i>, el cual indica cuánto tiempo podrá durar la animación, dentro de sus características principales se encuentran las siguientes:
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-3
               img.img-t(src='@/assets/curso/tema3/img14.svg', alt='')   
@@ -244,21 +244,21 @@
               ul.lista-ul--color
                 li
                   i.fas.fa-caret-right
-                  |	Es de fácil manejo ya que puede arrastrar y soltar: Permite desplazar archivos fácilmente, desde el escritorio del ordenador al panel determinado por el prototipo para realizar una descarga de forma rápida, permite que los archivos estén organizados y de fácil recordación por su ubicación.
+                  |	Es de fácil manejo ya que puede arrastrar y soltar: permite desplazar archivos fácilmente, desde el escritorio del ordenador al panel determinado por el prototipo para realizar una descarga de forma rápida, permite que los archivos estén organizados y de fácil recordación por su ubicación.
                 li
                   i.fas.fa-caret-right
-                  |	Permite crear diversas animaciones las cuales están disponibles: Contiene herramientas fáciles de utilizar como: escalar, mover, rotar, cambiar el tamaño y desvanecerse, las cuales podrán aplicarse en cualquier elemento de la creación de contenido.
+                  |	Permite crear diversas animaciones las cuales están disponibles: contiene herramientas fáciles de utilizar como: escalar, mover, rotar, cambiar el tamaño y desvanecerse, las cuales podrán aplicarse en cualquier elemento de la creación de contenido.
                 li
                   i.fas.fa-caret-right
-                  |	Facilita una serie de acciones, Con las cuales permite desplazarse, registrar correos electrónicos, GIF, audios, vídeos, cambiar de pantalla, realizar una llamada, visitar una URL, entre otras.
+                  p.m-0 Facilita una serie de acciones, con las cuales permite desplazarse, registrar correos electrónicos, <i>GIF</i>, audios, videos, cambiar de pantalla, realizar una llamada, visitar una URL, entre otras.
                 li
                   i.fas.fa-caret-right
-                  |	Permite exportar como HTML: Es perfecto para conseguir una vista preliminar y almacenar el proyecto, no requiriendo conexión, permite descargar todos los archivos Javascript, CCS y HTML, y de igual forma todos los activos del proyecto.
+                  |	Permite exportar como HTML: es perfecto para conseguir una vista preliminar y almacenar el proyecto, no requiriendo conexión, permite descargar todos los archivos Javascript, CCS y HTML, y de igual forma todos los activos del proyecto.
 
     Separador
 
     #t_3_4.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
-        h2 3.4 ¿Qué es un Prototipo? 
+        h2 3.4 ¿Qué es un prototipo? 
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-4
@@ -271,8 +271,8 @@
           .col-auto.d-none.d-lg-block
             img.img-t(src='@/assets/curso/tema3/img26.svg', alt='')       
           .col-lg-11
-            p.mb-4(data-aos="fade-down") El uso de los prototipos en el desarrollo de sistemas software no se limita sólo a probar las interacciones que los usuarios deben realizar, sino que son útiles también para otras actividades que se realizan durante el proceso, como por ejemplo su gran utilidad en la fase de recogida o análisis de requisitos en cuanto que amplía y mejora y la información necesaria para el desarrollo del sistema [KOT97].
-    p.mb-4 El diseño de prototipos interactivos es fundamental a la hora de desarrollar un sitio web o una aplicación móvil. Es importante contemplar todas las variables que esto conlleva, su planificación acorde a los tiempos esperados será el éxito del prototipo, evaluar sus escenarios tanto positivos como negativos, con el fin de no desperdiciar tiempo en un contenido sin planificación. 
+            p.mb-4(data-aos="fade-down") El uso de los prototipos en el desarrollo de sistemas <em>software</em> no se limita solo a probar las interacciones que los usuarios deben realizar, sino que son útiles también para otras actividades que se realizan durante el proceso, como por ejemplo su gran utilidad en la fase de recogida o análisis de requisitos en cuanto que amplía y mejora y la información necesaria para el desarrollo del sistema [KOT97].
+    p.mb-4 El diseño de prototipos interactivos es fundamental a la hora de desarrollar un sitio <em>web</em> o una aplicación móvil. Es importante contemplar todas las variables que esto conlleva, su planificación acorde a los tiempos esperados será el éxito del prototipo, evaluar sus escenarios tanto positivos como negativos, con el fin de no desperdiciar tiempo en un contenido sin planificación. 
 
     .row.justify-content-center
       .col-lg-10
@@ -291,12 +291,12 @@
         .bg_6.p-4
           figure.mb-4.mt-3
             img.img-t(src='@/assets/curso/tema3/img17.svg')
-          p <b>El árbol de contenidos:</b> aquí se desarrollará en general todo el contexto web del producto final, es importante definir cuál será la estructura de navegación de un sitio web, se le dará forma a la estructura de cada página, cuál es su forma de unión y secuencia, se definirá cual es el diseño óptimo de navegación.
+          p <b>El árbol de contenidos:</b> aquí se desarrollará en general todo el contexto <em>web</em> del producto final, es importante definir cuál será la estructura de navegación de un sitio <em>web</em>, se le dará forma a la estructura de cada página, cuál es su forma de unión y secuencia, se definirá cual es el diseño óptimo de navegación.
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
         .bg_7.p-4
           figure.mb-4.mt-3
             img.img-t(src='@/assets/curso/tema3/img18.svg')
-          p <b>La baja fidelidad:</b> en esta etapa se realizarán los borradores de la propuesta final del producto, se deja claro el soporte de paginación, es decir, que llevará y cómo será su diseño, diseño visual, que colores llevará, se determina la tipografía o iconografía estructurando el producto final. (Para hacer dicho proceso es importante ejecutarlo con Wireframes con el Software InVisión).
+          p <b>La baja fidelidad:</b> en esta etapa se realizarán los borradores de la propuesta final del producto, se deja claro el soporte de paginación, es decir, que llevará y cómo será su diseño, diseño visual, que colores llevará, se determina la tipografía o iconografía estructurando el producto final. (Para hacer dicho proceso es importante ejecutarlo con <em>wireframes</em> o con el <em>software</em> InVisión).
       .col-lg-4(data-aos="fade-left")
         .bg_8.p-4
           figure.mb-4
