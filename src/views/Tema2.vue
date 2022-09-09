@@ -102,76 +102,75 @@
       .col-lg-8
         p.m-0 <b>Dentro de todo este proceso de la creación de elementos interactivos es importante tener siempre presente el título que se dará a producción audiovisual, quien o quienes son los creadores, que tiempo dura la producción, la fecha de creación, a qué público está dirigido el material y una breve descripción de los componentes que hacen parte de la pieza audiovisual.</b>
 
-    Separador 
+    .bg_fondo-t2
+      Separador 
 
-    #t_2_2.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
-        h2 2.2 Editores de código
+      #t_2_2.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+          h2 2.2 Editores de código
 
-    p.mb-4 En este aparte se mencionarán los editores de código más usados por los programadores y diseñadores al momento de crear contenidos interactivos.
+      p.mb-4 En este aparte se mencionarán los editores de código más usados por los programadores y diseñadores al momento de crear contenidos interactivos.
 
-    h4.mb-4 ¿Qué es un editor de código?
+      h4.mb-4 ¿Qué es un editor de código?
 
-    .row.justify-content-center.mb-5
-      .col-lg-8
-        p.mb-4 Es un instrumento diseñado especialmente para desarrollar una acción específica, la cual se trata de editar archivos de escritura y modificación de códigos <em>web</em>. 
-        .cajon.color-secundario.bg_color2.p-3.mb-4
-          p.m-0.ms-2 Es este aparte se mencionarán los cinco editores de código más utilizados por los diseñadores y programadores <em>web</em> en la actualidad (programas gratuitos), cabe aclarar que no existe un top de editores de código, dejando claro que si se opta por tomar otro tipo de editor lo podrá realizar sin ningún inconveniente, aquí se mencionarán algunas de las características más importantes de las herramientas:
-      .col-lg-4
-        img.img-t(data-aos="fade-right")(src='@/assets/curso/tema2/img13.svg', alt='')    
+      .row.justify-content-center.mb-5
+        .col-lg-8
+          p.mb-4 Es un instrumento diseñado especialmente para desarrollar una acción específica, la cual se trata de editar archivos de escritura y modificación de códigos <em>web</em>. 
+          .cajon.color-secundario.bg_color2.p-3.mb-4
+            p.m-0.ms-2 Es este aparte se mencionarán los cinco editores de código más utilizados por los diseñadores y programadores <em>web</em> en la actualidad (programas gratuitos), cabe aclarar que no existe un top de editores de código, dejando claro que si se opta por tomar otro tipo de editor lo podrá realizar sin ningún inconveniente, aquí se mencionarán algunas de las características más importantes de las herramientas:
+        .col-lg-4
+          img.img-t(data-aos="fade-right")(src='@/assets/curso/tema2/img13.svg', alt='')    
 
-    TabsC.color-acento-botones
-      .py-3.py-md-4(titulo="Sublime Text")
-        .row.align-items-center
-          .col-md-3.mb-4.mb-md-0
-            figure
-              img.verticalLine(src='@/assets/curso/tema2/img14.svg', alt='')
-          .col-md-9
-            h4 Sublime Text
-            p Es un editor de código y texto para Windows, Linux y Mac, cuenta con una variedad de temas incorporados y una personalización total de la interfaz, con soporte para varios lenguajes de marcado y programación.
-            p Este editor de código permite realizar ediciones de archivos de forma eficaz y rápida, esto hace que sea muy utilizado por los usuarios en el entorno de la programación, cuenta con una diversidad de <em>plugins</em> aprovechables para instalar, multiplicando la interfaz y su funcionalidad, dentro de sus características principales se encuentran; resaltado de sintaxis, sangría automática, reconocimiento del tipo de archivo, barra lateral con archivos del directorio mencionado, macros, complemento y paquetes, de igual forma ofrece a los usuarios los siguientes beneficios; capacidad para resolver errores del enlazador, realiza seguimiento de todos los archivos y carpetas con los que trabajar, tiene conectividad con sistemas de control de versiones como git, mercurial, mantiene el esquema de color para el esquema de sintaxis.
-              
-      .py-3.py-md-4(titulo="Visual Studio Code")
-        .row.align-items-center
-          .col-md-3.mb-4.mb-md-0
-            figure
-              img.verticalLine(src='@/assets/curso/tema2/img15.svg', alt='') 
-          .col-md-9
-            h4 Visual Studio Code
-            p Este editor de código es diseñado por Windows, y permite ser utilizado por Mac.
-            p Este editor de código se recomienda cuando los proyectos presentan demasiada complejidad en contenido y tamaño, sin embargo, su velocidad de trabajo es rápida lo cual lo hace atractivo para los usuarios, como principal característica es que es considerablemente sólido y personalizable, es compatible con HTML, CSS, JavaScript y PHP, lo que hace que la herramienta sea constante y no necesita cambiarse, al mismo tiempo, utiliza Intellisense inteligente para el resaltado de sintaxis y el autocompletado, también permite la manipulación de carpetas alternas y tiene la posibilidad de utilizar más de 30 lenguajes.
+      TabsC.color-acento-botones
+        .py-3.py-md-4(titulo="Sublime Text")
+          .row.align-items-center
+            .col-md-3.mb-4.mb-md-0
+              figure
+                img.verticalLine(src='@/assets/curso/tema2/img14.svg', alt='')
+            .col-md-9
+              h4 Sublime Text
+              p Es un editor de código y texto para Windows, Linux y Mac, cuenta con una variedad de temas incorporados y una personalización total de la interfaz, con soporte para varios lenguajes de marcado y programación.
+              p Este editor de código permite realizar ediciones de archivos de forma eficaz y rápida, esto hace que sea muy utilizado por los usuarios en el entorno de la programación, cuenta con una diversidad de <em>plugins</em> aprovechables para instalar, multiplicando la interfaz y su funcionalidad, dentro de sus características principales se encuentran; resaltado de sintaxis, sangría automática, reconocimiento del tipo de archivo, barra lateral con archivos del directorio mencionado, macros, complemento y paquetes, de igual forma ofrece a los usuarios los siguientes beneficios; capacidad para resolver errores del enlazador, realiza seguimiento de todos los archivos y carpetas con los que trabajar, tiene conectividad con sistemas de control de versiones como git, mercurial, mantiene el esquema de color para el esquema de sintaxis.
+                
+        .py-3.py-md-4(titulo="Visual Studio Code")
+          .row.align-items-center
+            .col-md-3.mb-4.mb-md-0
+              figure
+                img.verticalLine(src='@/assets/curso/tema2/img15.svg', alt='') 
+            .col-md-9
+              h4 Visual Studio Code
+              p Este editor de código es diseñado por Windows, y permite ser utilizado por Mac.
+              p Este editor de código se recomienda cuando los proyectos presentan demasiada complejidad en contenido y tamaño, sin embargo, su velocidad de trabajo es rápida lo cual lo hace atractivo para los usuarios, como principal característica es que es considerablemente sólido y personalizable, es compatible con HTML, CSS, JavaScript y PHP, lo que hace que la herramienta sea constante y no necesita cambiarse, al mismo tiempo, utiliza Intellisense inteligente para el resaltado de sintaxis y el autocompletado, también permite la manipulación de carpetas alternas y tiene la posibilidad de utilizar más de 30 lenguajes.
+          
+        .py-3.py-md-4(titulo="Atom")
+          .row.align-items-center
+            .col-md-3.mb-4.mb-md-0
+              figure
+                img.verticalLine(src='@/assets/curso/tema2/img16.svg', alt='') 
+            .col-md-9
+              h4 Atom
+              p Este editor de texto es compatible con Windows y Mac
+              p Es un editor de texto <em>web</em> de fuente abierta desarrollado por GitHub, Su principal característica es que soporta la colaboración de código en tiempo real, muy similar aun drive ya que los archivos quedan subidos y cargados lo cual permite trabajar en un proyecto unificado y tiene la capacidad de codificar sus propios cambios en la interfaz con HTML y CSS.
+
+        .py-3.py-md-4(titulo="Brackets")
+          .row.align-items-center
+            .col-md-3.mb-4.mb-md-0
+              figure
+                img.verticalLine(src='@/assets/curso/tema2/img17.svg', alt='') 
+            .col-md-9
+              h4 Brackets
+              p Desarrollado por Adobe y disponible para Windows, Mac y Linux 
+              p Este editor de código es compatible con HTML, CSS, JavaScript, es una herramienta relativamente nueva en el mercado de los programadores, cuenta con algunas características que lo hacen de fácil manejo para los usuarios, permite añadir <em>plugins</em> las cuales permiten un mejor interfaz ya que puede aumentar su funcionalidad, de igual forma incluye una vista previa en vivo que permite ver los cambios que se van realizando en el código de un navegador <em>web</em> y detectar fácilmente posibles errores de código, también se ajusta y brinda soporte para preprocesador, tiene una opción de buscar y reemplazar, puede compartir extensiones y su detalle de sintaxis es óptimo.        
         
-      .py-3.py-md-4(titulo="Atom")
-        .row.align-items-center
-          .col-md-3.mb-4.mb-md-0
-            figure
-              img.verticalLine(src='@/assets/curso/tema2/img16.svg', alt='') 
-          .col-md-9
-            h4 Atom
-            p Este editor de texto es compatible con Windows y Mac
-            p Es un editor de texto <em>web</em> de fuente abierta desarrollado por GitHub, Su principal característica es que soporta la colaboración de código en tiempo real, muy similar aun drive ya que los archivos quedan subidos y cargados lo cual permite trabajar en un proyecto unificado y tiene la capacidad de codificar sus propios cambios en la interfaz con HTML y CSS.
-
-      .py-3.py-md-4(titulo="Brackets")
-        .row.align-items-center
-          .col-md-3.mb-4.mb-md-0
-            figure
-              img.verticalLine(src='@/assets/curso/tema2/img17.svg', alt='') 
-          .col-md-9
-            h4 Brackets
-            p Desarrollado por Adobe y disponible para Windows, Mac y Linux 
-            p Este editor de código es compatible con HTML, CSS, JavaScript, es una herramienta relativamente nueva en el mercado de los programadores, cuenta con algunas características que lo hacen de fácil manejo para los usuarios, permite añadir <em>plugins</em> las cuales permiten un mejor interfaz ya que puede aumentar su funcionalidad, de igual forma incluye una vista previa en vivo que permite ver los cambios que se van realizando en el código de un navegador <em>web</em> y detectar fácilmente posibles errores de código, también se ajusta y brinda soporte para preprocesador, tiene una opción de buscar y reemplazar, puede compartir extensiones y su detalle de sintaxis es óptimo.        
+        .py-3.py-md-4(titulo="Notepad++")
+          .row.align-items-center
+            .col-md-3.mb-4.mb-md-0
+              figure
+                img.verticalLine(src='@/assets/curso/tema2/img18.svg', alt='') 
+            .col-md-9
+              h4 Notepad++
+              p Este editor de código está diseñado directamente para Windows
+              p Notepad++ es una herramienta de fácil manejo para los usuarios su interfaz es relativamente sencilla tiene la posibilidad de manejar diversos lenguajes de programación, tiene soporte para HTML, CSS, PHP y JavaScript, tiene la posibilidad de autoguardado, búsqueda avanzada, cuenta con edición sincrónica y permite una división de pantalla para optimizar el trabajo del diseñador o programador.
       
-      .py-3.py-md-4(titulo="Notepad++")
-        .row.align-items-center
-          .col-md-3.mb-4.mb-md-0
-            figure
-              img.verticalLine(src='@/assets/curso/tema2/img18.svg', alt='') 
-          .col-md-9
-            h4 Notepad++
-            p Este editor de código está diseñado directamente para Windows
-            p Notepad++ es una herramienta de fácil manejo para los usuarios su interfaz es relativamente sencilla tiene la posibilidad de manejar diversos lenguajes de programación, tiene soporte para HTML, CSS, PHP y JavaScript, tiene la posibilidad de autoguardado, búsqueda avanzada, cuenta con edición sincrónica y permite una división de pantalla para optimizar el trabajo del diseñador o programador.
-      
-
-
 
 
 </template>

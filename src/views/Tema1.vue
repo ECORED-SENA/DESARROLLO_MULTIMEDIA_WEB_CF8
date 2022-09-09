@@ -112,28 +112,29 @@
             .col-lg-11
               p.me-3.mb-4 Por lo general los formularios no permiten editar información. Un formulario interactivo contiene espacios, para ingresar información, al momento de darle clic en uno de estos campos donde se escribe la información, aparecerá un cuadro en el campo correspondiente. Para la creación de formularios interactivos se pueden crear en diversos programas, formatos o plantillas tales como, PDF, Google Docs, InDesign, entre otros.
 
-    Separador 
+    .bg_fondo4
+      Separador 
 
-    #t_1_2.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
-        h2 1.2 Características de los elementos interactivos 
+      #t_1_2.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+          h2 1.2 Características de los elementos interactivos 
 
-    p La característica principal del diseño <em>web</em> podría decirse que es la interactividad, ya que por medio de sus interfaces se generan diversas capas de interacción dependiendo si es un sitio <em>web</em> o una aplicación, las animaciones son el estandarte del diseño <em>web</em>, por tal motivo estas deben tener una serie de características que son importantes al crear animaciones y que se podrán ver a continuación:
+      p La característica principal del diseño <em>web</em> podría decirse que es la interactividad, ya que por medio de sus interfaces se generan diversas capas de interacción dependiendo si es un sitio <em>web</em> o una aplicación, las animaciones son el estandarte del diseño <em>web</em>, por tal motivo estas deben tener una serie de características que son importantes al crear animaciones y que se podrán ver a continuación:
 
-    .row.justify-content-center.mb-5
-      .col-md-4.mb-4.mb-lg-0
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img13.svg')
-      .col-md-8.mb-5.mb-md-0(data-aos="fade-left")
-        LineaTiempoD.color-acento-botones
-          p.text-small.mt-3.mt-lg-0(numero="1" titulo="Sutileza") Esto con el fin de generar una estética y diseño al elemento interactivo, permitiendo que la vista del diseño sea y se vea uniforme, que se perciba como una unidad captando la atención del usuario y su contexto de interfaz <em>web</em>, es decir crear elementos que sean de una misma línea, en textos, colores, formas y demás. 
-          
-          p.text-small.mt-3.mt-lg-0(numero="2" titulo="Fluidez") Es importante que las animaciones sean fluidas, evitando que la persona que desee interactuar con el contenido se sienta afectado al momento de su interacción y no sea compleja su utilización al momento de la animación. Este es el efecto de cómo pasa de ser una pieza lenta a rápida o viceversa, para tal fin es pertinente realizar una configuración adecuada para el tipo de animación a diseñar, tenga en cuenta siempre la velocidad, su secuencia y el tiempo haciendo referencia al contexto real.
-          
-          p.text-small.mt-3.mt-lg-0(numero="3" titulo="Informar") Otra característica importante es que la pieza creada sea <b>informativa</b>, dando a conocer el uso de los elementos interactivos de la pieza, por ejemplo, si hay una imagen demasiado grande que ocupe un espacio significativo en la animación es pertinente añadir una flecha, la cual indique que se debe desplazar para el lado que el diseñador determine con el fin brindar información y ser dirigido a una sección diferente con tan solo hacer un clic, así se podrá encontrar un sentido a la creación dentro de la composición, las animaciones brindan información de manera visual a los usuarios, permitiendo reconocer ciertos procesos dentro de la animación.  
-          
-          p.text-small.mt-3.mt-lg-0(numero="4" titulo="Preciso") Cabe resaltar que no se debe hacer una animación por cada elemento del sitio <em>web</em>, esto primero será muy complejo de entender por parte del usuario y no creará la atención requerida, por ser un contexto saturado. Lo ideal es añadir interfaces de fácil manejo (botones o enlaces), para esta acción es importante determinar los elementos <b>necesarios</b> que realmente deban formar parte de una animación para darle sentido en la página.
+      .row.justify-content-center.mb-5
+        .col-md-4.mb-4.mb-lg-0
+          figure(data-aos="fade-right")
+            img(src='@/assets/curso/tema1/img13.svg')
+        .col-md-8.mb-5.mb-md-0(data-aos="fade-left")
+          LineaTiempoD.color-acento-botones
+            p.text-small.mt-3.mt-lg-0(numero="1" titulo="Sutileza") Esto con el fin de generar una estética y diseño al elemento interactivo, permitiendo que la vista del diseño sea y se vea uniforme, que se perciba como una unidad captando la atención del usuario y su contexto de interfaz <em>web</em>, es decir crear elementos que sean de una misma línea, en textos, colores, formas y demás. 
+            
+            p.text-small.mt-3.mt-lg-0(numero="2" titulo="Fluidez") Es importante que las animaciones sean fluidas, evitando que la persona que desee interactuar con el contenido se sienta afectado al momento de su interacción y no sea compleja su utilización al momento de la animación. Este es el efecto de cómo pasa de ser una pieza lenta a rápida o viceversa, para tal fin es pertinente realizar una configuración adecuada para el tipo de animación a diseñar, tenga en cuenta siempre la velocidad, su secuencia y el tiempo haciendo referencia al contexto real.
+            
+            p.text-small.mt-3.mt-lg-0(numero="3" titulo="Informar") Otra característica importante es que la pieza creada sea <b>informativa</b>, dando a conocer el uso de los elementos interactivos de la pieza, por ejemplo, si hay una imagen demasiado grande que ocupe un espacio significativo en la animación es pertinente añadir una flecha, la cual indique que se debe desplazar para el lado que el diseñador determine con el fin brindar información y ser dirigido a una sección diferente con tan solo hacer un clic, así se podrá encontrar un sentido a la creación dentro de la composición, las animaciones brindan información de manera visual a los usuarios, permitiendo reconocer ciertos procesos dentro de la animación.  
+            
+            p.text-small.mt-3.mt-lg-0(numero="4" titulo="Preciso") Cabe resaltar que no se debe hacer una animación por cada elemento del sitio <em>web</em>, esto primero será muy complejo de entender por parte del usuario y no creará la atención requerida, por ser un contexto saturado. Lo ideal es añadir interfaces de fácil manejo (botones o enlaces), para esta acción es importante determinar los elementos <b>necesarios</b> que realmente deban formar parte de una animación para darle sentido en la página.
 
-          p.text-small(numero="5" titulo="Rapidez") Y no menos importante es la <b>rapidez</b> de carga de la página y su contenido, de lo contrario perderá fácilmente el interés por el contenido, es aquí cuando la experiencia que se desee plasmar en el contenido comienza a ser importante para captar la atención de un público, así que el creador debe asegurar que el diseño planteado se encuentre optimizado para la velocidad, por tal razón al momento de crear los efectos de animación de los elementos interactivos es importante hacerlos fluidos en conjunto y rápidos, debe tener en cuenta en configurarlos con la velocidad indicada permitiendo que los efectos sean notorios por los usuarios, es así como las interacciones comunican un mensaje de forma visual. 
+            p.text-small(numero="5" titulo="Rapidez") Y no menos importante es la <b>rapidez</b> de carga de la página y su contenido, de lo contrario perderá fácilmente el interés por el contenido, es aquí cuando la experiencia que se desee plasmar en el contenido comienza a ser importante para captar la atención de un público, así que el creador debe asegurar que el diseño planteado se encuentre optimizado para la velocidad, por tal razón al momento de crear los efectos de animación de los elementos interactivos es importante hacerlos fluidos en conjunto y rápidos, debe tener en cuenta en configurarlos con la velocidad indicada permitiendo que los efectos sean notorios por los usuarios, es así como las interacciones comunican un mensaje de forma visual. 
          
     Separador 
 
