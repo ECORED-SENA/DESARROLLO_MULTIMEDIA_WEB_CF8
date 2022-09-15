@@ -62,7 +62,7 @@
               .cajon.color-primario.bg_color1.p-3.mb-4
                 p.m-0.ms-2 De esta forma los usuarios realizan un entorno interactivo con la manipulación de los diferentes botones que existan en determinado medio, su usabilidad, su resultado y la subsecciones derivadas de cada uno de ellos. Hay muchas herramientas hoy en día para su creación como ThingLink, InDesign, Illustrator, entre otros, cuya documentación de como realizarlos es de fácil consulta en la <em>web</em>.
 
-      .row.justify-content-center(titulo="Menús Desplegables")
+      .row.justify-content-center(titulo="Menús desplegables")
         .col-lg-4.mb-4.mb-lg-0
           img.img-t(src='@/assets/curso/tema1/img08.png', alt='')  
         .col-lg-8

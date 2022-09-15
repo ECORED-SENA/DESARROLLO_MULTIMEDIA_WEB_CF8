@@ -111,13 +111,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: '¿Qué es un Prototipo?',
+            titulo: '¿Qué es un prototipo?',
             hash: 't_3_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.5',
-            titulo: 'Etapas de Prototipado',
+            titulo: 'Etapas de prototipado',
             hash: 't_3_5',
           },
         ],
