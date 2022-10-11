@@ -9,15 +9,15 @@
     
     .bg_fondo1
       .row.justify-content-center.align-items-center
-        .col-lg-4.mb-4
-          img.img-t(src='@/assets/curso/tema1/img01.svg', alt='')    
+        .col-lg-4.mb-4(data-aos="fade-right")
+          img.img-t.mx-auto(src='@/assets/curso/tema1/img01.svg', alt='')    
         .col-lg-8
           .row.justify-content-center   
             .col-auto.d-none.d-lg-block
               img.img-t(src='@/assets/curso/tema1/img02.svg', alt='')       
             .col-lg-11
               p.me-3.mb-4(data-aos="fade-down") Antes de iniciar es conveniente partir desde el concepto mismo, la palabra interactivo se designará a todo aquello que proviene o procede por interacción: 
-          .cajon.color-primario.bg_color1.p-3.mb-4
+          .cajon.color-primario.bg_color1.p-3.mb-4(data-aos="fade-left")
             p.m-0.ms-2 Por interacción entendemos que es aquella acción que se ejerce de manera recíproca entre dos o más sujetos, objetos, agentes, fuerzas o funciones, en tanto, el concepto de interacción es un concepto ampliamente utilizado en diversos ámbitos, como en la comunicación, en la informática, la física, el diseño multimedia y el diseño industrial (Ucha, 2009).
 
       .row.justify-content-center.align-items-center
@@ -29,14 +29,16 @@
             .col-lg-10
               p(data-aos="fade-down") <b>Hoy en día, resulta más que común la relación sujeto-máquina, donde lo interactivo se puede manifestar desde el jugar a través de algún dispositivo o bien visualizar diverso contenido por medio de cualquier proveedor de servicios <em>streamming,</em> como si fuera una comida a la carta.</b>   
         .col-lg-4.mb-4
-          img.img-t.my-3(data-aos="zoom-in")(src='@/assets/curso/tema1/img05.svg', alt='')  
+          img.img-t.my-3.mx-auto(data-aos="zoom-in")(src='@/assets/curso/tema1/img05.svg', alt='')  
+
+      Separador
 
       #t_1_1.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
         h2 1.1	Elementos
 
       .row.justify-content-center.align-items-center
         .col-lg-4
-          img.img-t(data-aos="zoom-in")(src='@/assets/curso/tema1/img04.svg', alt='')    
+          img.img-t.mx-auto(data-aos="zoom-in")(src='@/assets/curso/tema1/img04.png', alt='')    
         .col-lg-8
           p A continuación, se hace referencia a los elementos más relevantes a la hora de crear un producto interactivo, un elemento interactivo es un elemento que puede cambiar de acuerdo con lo que el usuario requiera, a continuación se presentan los más comunes:
           h4.mb-4 Elementos de un producto interactivo
@@ -52,7 +54,7 @@
           p.ms-3 El botón es un elemento interactivo que cumple una operación, la cual, está ligada con el orden en que un usuario da un clic. Pueden ser texto, forma vectorial e imagen, o incluso se puede convertir en un botón interactivo. Son herramientas que pueden ser creadas a partir de una imagen, una caja de texto o un marco rectangular vacío. Luego de convertir la imagen o marco a botón, se podrán agregar diversas labores logrando de esta forma realizar distintas interactividades.
           .row.justify-content-center.align-items-center
             .col-lg-4.mb-4
-              img.img-t(src='@/assets/curso/tema1/img07.png', alt='')    
+              img.img-t.mx-auto(src='@/assets/curso/tema1/img07.png', alt='')    
             .col-lg-8
               .row.justify-content-center   
                 .col-auto.d-none.d-lg-block
@@ -64,7 +66,7 @@
 
       .row.justify-content-center(titulo="Menús desplegables")
         .col-lg-4.mb-4.mb-lg-0
-          img.img-t(src='@/assets/curso/tema1/img08.png', alt='')  
+          img.img-t.mx-auto(src='@/assets/curso/tema1/img08.png', alt='')  
         .col-lg-8
           p.mb-4 Son menús que permiten ser manipulados por el usuario, están diseñados para optimizar espacio en la pantalla principal de una <em>web</em> y por lo general cuentan con submenús. Los menús tienen opciones individuales que se ejecutan sólo si se les da la orden, por lo cual, permite ver todo el listado de categorías que se encuentran en un tema específico y la interacción va a ser guiada por el mismo usuario.   
           .row.justify-content-center   
@@ -78,11 +80,11 @@
           p.mb-5 <em>Slides</em> es instrumento con el cual se pueden crear diapositivas en línea, por intermedio de los <em>slides</em> se pueden observar las presentaciones elaboradas dentro de una interfaz, PowerPoint, documentos de Word, open office, PDF o portafolios. Es decir, subir y compartir información a un público específico con un objetivo de una forma más dinámica.
           .row.justify-content-center  
             .col-auto.d-none.d-lg-block
-              img.img-t(src='@/assets/curso/tema1/img12.svg', alt='')       
+              img.img-t.mx-auto(src='@/assets/curso/tema1/img12.svg', alt='')       
             .col-lg-11
               p.me-3.mb-4 Con los <em>slides</em> se pueden crear y compartir presentaciones las cuales pueden incluir videos, textos, imágenes, compartir contenidos por redes sociales y facilita la comunicación ya que se pueden realizar reuniones de presentación de proyectos, sustentaciones, entre otros, en tiempo real sin importar que el público esté en un lugar físico.
         .col-lg-4
-          img.img-t(src='@/assets/curso/tema1/img09.png', alt='')  
+          img.img-t.mx-auto(src='@/assets/curso/tema1/img09.png', alt='')  
 
       .row.justify-content-center(titulo="<em>Hotspots</em>")
         .col-lg-12
@@ -95,7 +97,7 @@
                 .col-lg-11.col-xl-10.col-xxl-11
                   p.me-2.mb-4 Inicialmente solo se encontraban en puntos determinados tales como, cafés, restaurantes locales comerciales con el fin de tarea clientes y vender una experiencia diferente del producto que caracterizaba el punto (café, comida, ropa), con el paso del tiempo este fenómeno se amplió de tal forma que hoy en día es común encontrar un <em>hotspot</em> en cualquier lugar y acceder a una conexión inalámbrica. El ejemplo más claro y común es un smartphone que puede incluso cumplir la función de un <em>hotspot</em>, permitiendo compartir el acceso a internet con otros dispositivos.
             .col-lg-4.mb-4
-              img.img-t(src='@/assets/curso/tema1/img10.png', alt='')   
+              img.img-t.mx-auto(src='@/assets/curso/tema1/img10.png', alt='')   
         .row.justify-content-center
           .col-lg-12
             .cajon.color-primario.bg_color1.p-3.mb-4
@@ -103,7 +105,7 @@
 
       .row.justify-content-center(titulo="Formularios")
         .col-lg-4.mb-4.mb-lg-0
-          img.img-t(src='@/assets/curso/tema1/img11.png', alt='')  
+          img.img-t.mx-auto(src='@/assets/curso/tema1/img11.png', alt='')  
         .col-lg-8
           p.mb-5 Los formularios interactivos permiten presentar de forma estructurada algún tipo de información, referente a un tema en específico, en él se encuentran una serie espacios los cuales deben ser diligenciados en su totalidad, en muchos casos está predeterminado es decir no se pueden saltar las preguntas ya que si no se responden de manera secuencial es complejo que el sistema le permita continuar con el diligenciamiento.  
           .row.justify-content-center   
@@ -117,10 +119,11 @@
 
       #t_1_2.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
           h2 1.2 Características de los elementos interactivos 
+                
+      .cajon-b.color-primario.p-3.mb-5
+        p.mb-0 La característica principal del diseño <em>web</em> podría decirse que es la interactividad, ya que por medio de sus interfaces se generan diversas capas de interacción dependiendo si es un sitio <em>web</em> o una aplicación, las animaciones son el estandarte del diseño <em>web</em>, por tal motivo estas deben tener una serie de características que son importantes al crear animaciones y que se podrán ver a continuación:
 
-      p La característica principal del diseño <em>web</em> podría decirse que es la interactividad, ya que por medio de sus interfaces se generan diversas capas de interacción dependiendo si es un sitio <em>web</em> o una aplicación, las animaciones son el estandarte del diseño <em>web</em>, por tal motivo estas deben tener una serie de características que son importantes al crear animaciones y que se podrán ver a continuación:
-
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5.mt-5
         .col-md-4.mb-4.mb-lg-0
           figure(data-aos="fade-right")
             img(src='@/assets/curso/tema1/img13.svg')
@@ -145,8 +148,8 @@
       .row.m-0.align-items-center
         .col-lg-4.mb-4.mb-lg-0
           figure(data-aos="fade-right")
-            img.img-t(src='@/assets/curso/tema1/img14.png')
-        .col-lg-8
+            img.img-t.mx-auto(src='@/assets/curso/tema1/img14.png')
+        .col-lg-8(data-aos="fade-left")
           .bloque-texto-a__texto.p-4
             p.m-0 Dentro de la interfaz y su desarrollo es importante antes que nada es ver la usabilidad y funcionalidad de lo que se está creando y de igual forma es importante tener en cuenta las siguientes pautas:
              
@@ -155,24 +158,25 @@
         .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
           .bg_1.p-4
             figure.mb-4.mt-3
-              img.img-t(src='@/assets/curso/tema1/img15.svg')
+              img.img-t.mx-auto(src='@/assets/curso/tema1/img15.svg')
             p <b>Desarrollar un creativo diseño visual,</b> con el fin de generar una comunicación asertiva de interfaz, determinar un conjunto de colores preferiblemente tenues y complementarios de contraste logrando la personalización de las preferencias de color.
         .col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
           .bg_2.p-4
             figure.mb-4.mt-3
-              img.img-t(src='@/assets/curso/tema1/img16.svg')
+              img.img-t.mx-auto(src='@/assets/curso/tema1/img16.svg')
             p <b>La manera en cómo se ubican los componentes</b> es determinante ya que es de la forma en que se pueden ubicar en el contexto, entre más clara y limpia sea la localización de los componentes facilitará la interfaz con el usuario.
         .col-lg-4(data-aos="fade-left")
           .bg_3.p-4
             figure.mb-4
-              img.img-t(src='@/assets/curso/tema1/img17.svg')
+              img.img-t.mx-auto(src='@/assets/curso/tema1/img17.svg')
             p <b>Determinante la brevedad de los textos,</b> estos deben ser precisos y objetivos bloques pequeños, de igual forma el lenguaje coherente a la interfaz, de igual forma claro y determinante.
 
       .row.justify-content-center.align-items-center
         .col-lg-3.mb-4.mb-lg-0
-          img.img-t(data-aos="zoom-in")(src='@/assets/curso/tema1/img18.svg', alt='')    
+          img.img-t.mx-auto(data-aos="zoom-in")(src='@/assets/curso/tema1/img18.svg', alt='')    
         .col-lg-9
-          p En el diseño interactivo de interfaces, todos los elementos que fomenten la realimentación son fundamentales, ya que el usuario debe estar informado en cada momento de las acciones que realiza, si el sistema tarda más tiempo de lo normal en procesar un comando se debe mostrar un mensaje al usuario informándole del proceso que está teniendo lugar para no provocarle incertidumbre. 
+          .cajon-b.color-secundario.p-3
+            p En el diseño interactivo de interfaces, todos los elementos que fomenten la realimentación son fundamentales, ya que el usuario debe estar informado en cada momento de las acciones que realiza, si el sistema tarda más tiempo de lo normal en procesar un comando se debe mostrar un mensaje al usuario informándole del proceso que está teniendo lugar para no provocarle incertidumbre. 
           .row.justify-content-center    
             .col-auto.d-none.d-lg-block.p-0
               img.img-t(src='@/assets/curso/tema1/img12.svg', alt='')       
@@ -215,7 +219,7 @@
     .bg_fondo3
       .row.mb-5
         .col-lg-12
-          .cajon.color-primario.bg_color1.p-3.mb-4
+          .cajon.color-primario.bg_color1.p-3.mb-4(data-aos="fade-up-right")
             p.m-0.ms-2 <b>Nota: <i>dentro de la creación podrán surgir una serie de preguntas las cuales apoyarán mucho al momento de desarrollar el contenido como:</i></b> ¿Propósito del proyecto?, ¿A quién estará dirigido?, ¿Cuál será el tema central?, ¿Elementos multimedia para su desarrollo?, ¿Qué <em>hardware</em> se necesita?, ¿Qué programa de edición es el más apropiado?, entre muchas otras.
 
       .row.mb-4
@@ -223,10 +227,11 @@
           .bg_5.p-3
             h4.text-white.m-0 Diseño
 
-      p.mb-5 Ya con el planteamiento claro en todo sentido (tecnologías, contenido, público objetivo) se da paso al diseño, definiendo las tareas puntuales para la interfaz, creación de funcionalidades, creación de contenidos y prototipo, y lo más importante se deben definir los objetivos específicos del proyecto. Se debe tener en cuenta en el diseño:
+      .cajon-b.color-acento-botones.p-1
+        p.mb-5 Ya con el planteamiento claro en todo sentido (tecnologías, contenido, público objetivo) se da paso al diseño, definiendo las tareas puntuales para la interfaz, creación de funcionalidades, creación de contenidos y prototipo, y lo más importante se deben definir los objetivos específicos del proyecto. Se debe tener en cuenta en el diseño:
 
       .row.mb-5
-        .col-lg-7
+        .col-lg-7(data-aos="fade-right")
           .bg_slyder.p-5.mb-5
             SlyderA(tipo="b").color_slyder-a_botones
               .row.justify-content-center
@@ -254,26 +259,27 @@
                     img.img-t.mx-auto.d-none.d-lg-block(src='@/assets/curso/tema1/img23.svg', alt='AvatarTop')
 
               .row.justify-content-center
-                .col-lg-9.align-self-end
+                .col-lg-9.align-self-end.order-last.order-lg-first
                   h4 Diseño del estilo y redacción
                   p Se elige la presentación final su estilo, se revisa muy detalladamente la redacción, se plasman los contenidos gráficos, se crean los botones, y se determinan los menús.   
                 .col-lg-3.mt-3
                   figure
                     img.img-t.mx-auto.d-none.d-lg-block(src='@/assets/curso/tema1/img24.svg', alt='AvatarTop')
-        .col-lg-5
+        .col-lg-5.order-first.order-lg-last(data-aos="fade-left")
           figure
-            img.img-t(src='@/assets/curso/tema1/img25.svg', alt='')
+            img.img-t.mx-auto(src='@/assets/curso/tema1/img25.svg', alt='')
 
     .row.align-items-center.mb-4
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img.img-t(src='@/assets/curso/tema1/img26.svg', alt='')
-      .col-lg-8
+          img.img-t.mx-auto(src='@/assets/curso/tema1/img26.svg', alt='')
+      .col-lg-8(data-aos="fade-left")
         .row.mb-4
           .col-auto
             .bg_5.p-3
               h4.text-white.m-0 Desarrollo
-        p.mb-5 Con la planeación y el diseño determinado se procede a darle estructura a la creación de temas.
+        .cajon-b.color-acento-contenido
+          p.mb-5 Con la planeación y el diseño determinado se procede a darle estructura a la creación de temas.
         .row.mb-4
           .col-auto
             .bg_5.p-3
