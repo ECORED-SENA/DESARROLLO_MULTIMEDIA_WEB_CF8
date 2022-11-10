@@ -120,6 +120,12 @@ export default {
             titulo: 'Etapas de prototipado',
             hash: 't_3_5',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.6',
+            titulo: 'El proyecto',
+            hash: 't_3_6',
+          },
         ],
       },
     ],
@@ -197,7 +203,7 @@ export default {
     {
       tema: 'Elementos interactivos',
       referencia:
-        'Vásquez, D. (s.f.) Botones de Acción en Power Point. [video]. Youtube.',
+        'Vásquez, D. (s.f.) Botones de Acción en PowerPoint. [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=3oU28kxR1lY',
     },
@@ -240,7 +246,7 @@ export default {
     {
       termino: 'Interfaz',
       significado:
-        'Es un término que procede del vocablo inglés interface. En informática, esta noción sirve para señalar a la conexión que se da de manera física y a nivel de utilidad entre dispositivos o sistemas. ',
+        'Es un término que procede del vocablo inglés <em>interface</em>. En informática, esta noción sirve para señalar a la conexión que se da de manera física y a nivel de utilidad entre dispositivos o sistemas. ',
     },
     {
       termino: 'Programa de diseño',
@@ -324,7 +330,8 @@ export default {
     {
       referencia:
         'Arimetrics (s.f.) Qué es Entorno de desarrollo [Definición],',
-      link: 'https://www.definicionabc.com/general/interactivo.php',
+      link:
+        'https://www.arimetrics.com/glosario-digital/entorno-de-desarrollo#:~:text=Un%20entorno%20de%20desarrollo%20es,un%20c%C3%B3digo%20fuente%20o%20programa',
     },
   ],
   creditos: {

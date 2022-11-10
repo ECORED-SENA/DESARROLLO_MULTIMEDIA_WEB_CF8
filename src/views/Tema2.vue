@@ -24,12 +24,12 @@
     .row.justify-content-center.align-items-center
       .col-lg-8
         .cajon-b.color-3.p-1
-          p(data-aos="fade-down") Es importante tener un contexto claro para el desarrollo del guion multimedia para ello se debe tener claro el objetivo, la Integración de los elementos, la sinopsis la narración, la organización y el ritmo.
+          p(data-aos="fade-down") Es importante tener un contexto claro para el desarrollo del guion multimedia para ello se debe tener claro el objetivo, la Integración de los elementos, la sinopsis, la narración, la organización y el ritmo.
         .row.justify-content-center       
           .col-auto.d-none.d-lg-block.p-0
             img.img-t.mt-2(data-aos="zoom-in")(src='@/assets/curso/tema1/img03.svg', alt='')       
           .col-lg-10
-            p(data-aos="fade-down") <b>En el mismo se incluye toda la información relativa al diseño del recurso (storyboard), está conformado por varios elementos o sub-guiones:</b>   
+            p(data-aos="fade-down") <b>En el mismo se incluye toda la información relativa al diseño del recurso <em>(storyboard)</em>, está conformado por varios elementos o sub-guiones:</b>   
       .col-lg-4.mb-4
         img.img-t.my-3.mx-auto(data-aos="zoom-in")(src='@/assets/curso/tema2/img02.png', alt='')  
 
@@ -59,7 +59,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-9.align-self-end
                 h4 Guion icónico
-                p Este guion permite ver la marca las imágenes adecuadas para el desarrollo del material, (gráficos, fotos, figuras, imágenes de video o animaciones), dejando claro en qué momento se hacen partícipes del montaje del guion, se recomienda darle un consecutivo con el fin de identificar cada una de las imágenes utilizadas. 
+                p Este guion permite ver la marca, las imágenes adecuadas para el desarrollo del material, (gráficos, fotos, figuras, imágenes de video o animaciones), dejando claro en qué momento se hacen partícipes del montaje del guion, se recomienda darle un consecutivo con el fin de identificar cada una de las imágenes utilizadas. 
               .col-lg-3.mt-4
                 figure
                   img.img-t.mx-auto.d-none.d-lg-block(src='@/assets/curso/tema2/img06.svg', alt='AvatarTop')

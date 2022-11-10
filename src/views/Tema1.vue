@@ -27,7 +27,7 @@
             .col-auto.d-none.d-lg-block.p-0
               img.img-t.mt-2(data-aos="zoom-in")(src='@/assets/curso/tema1/img03.svg', alt='')       
             .col-lg-10
-              p(data-aos="fade-down") <b>Hoy en día, resulta más que común la relación sujeto-máquina, donde lo interactivo se puede manifestar desde el jugar a través de algún dispositivo o bien visualizar diverso contenido por medio de cualquier proveedor de servicios <em>streamming,</em> como si fuera una comida a la carta.</b>   
+              p(data-aos="fade-down") <b>Hoy en día, resulta más que común la relación sujeto-máquina, donde lo interactivo se puede manifestar desde el jugar a través de algún dispositivo o bien visualizar diverso contenido por medio de cualquier proveedor de servicios <em>streaming,</em> como si fuera una comida a la carta.</b>   
         .col-lg-4.mb-4
           img.img-t.my-3.mx-auto(data-aos="zoom-in")(src='@/assets/curso/tema1/img05.svg', alt='')  
 
@@ -62,7 +62,7 @@
                 .col-lg-11
                   p.me-3.mb-4(data-aos="fade-down") Las propiedades que se pueden definir para un botón interactivo son: Botones, texto, vínculo, fuente, imagen. Realmente su manipulación es relativamente sencilla para cualquier persona, ya que no se requiere ningún tipo de experticia para crear un botón interactivo.  
               .cajon.color-primario.bg_color1.p-3.mb-4
-                p.m-0.ms-2 De esta forma los usuarios realizan un entorno interactivo con la manipulación de los diferentes botones que existan en determinado medio, su usabilidad, su resultado y la subsecciones derivadas de cada uno de ellos. Hay muchas herramientas hoy en día para su creación como ThingLink, InDesign, Illustrator, entre otros, cuya documentación de como realizarlos es de fácil consulta en la <em>web</em>.
+                p.m-0.ms-2 De esta forma los usuarios realizan un entorno interactivo con la manipulación de los diferentes botones que existan en determinado medio, su usabilidad, su resultado y las subsecciones derivadas de cada uno de ellos. Hay muchas herramientas hoy en día para su creación como ThingLink, InDesign, Illustrator, entre otros, cuya documentación de como realizarlos es de fácil consulta en la <em>web</em>.
 
       .row.justify-content-center(titulo="Menús desplegables")
         .col-lg-4.mb-4.mb-lg-0

@@ -15,7 +15,7 @@
     .bloque-texto-d.color-primario.p-4.mb-4(data-aos="fade-left")
       .bloque-texto-d__texto.mb-2
         i.fas.fa-quote-left
-        h4.text-regular Un entorno de desarrollo es un conjunto de procedimientos y herramientas que se utilizan para desarrollar un código fuente o programa. Este término se utiliza a veces como sinónimo de entorno de desarrollo integrado (IDE), que es la herramienta de desarrollo de <em>software</em> utilizado para escribir, generar, probar y depurar un programa. También proporcionan a los desarrolladores una interfaz de usuario común (UI) para desarrollar y depurar en diferentes modos. A la hora de elegir en entorno de desarrollo o IDE (Integrated Development Environment) es fundamental tener definido qué lenguaje de programación se va a utilizar tanto en el <em>Frontend</em> (la parte visible de la <em>web</em>) como en el Backend.”  
+        h4.text-regular Un entorno de desarrollo es un conjunto de procedimientos y herramientas que se utilizan para desarrollar un código fuente o programa. Este término se utiliza a veces como sinónimo de entorno de desarrollo integrado (IDE), que es la herramienta de desarrollo de <em>software</em> utilizado para escribir, generar, probar y depurar un programa. También proporcionan a los desarrolladores una interfaz de usuario común (UI) para desarrollar y depurar en diferentes modos. A la hora de elegir en entorno de desarrollo o IDE <em>(Integrated Development Environment)</em> es fundamental tener definido qué lenguaje de programación se va a utilizar tanto en el <em>Frontend</em> (la parte visible de la <em>web</em>) como en el <em>Backend</em>.  
         i.fas.fa-quote-right
       .bloque-texto-d__autor 
         .h5.mb-0 Arimetrics (s.f.)
@@ -161,7 +161,7 @@
                     |	Cuenta con la posibilidad de hacer transiciones animadas, siendo un excelente creador de transiciones ya que permite crear animaciones propias de forma bastante sencilla, ya que cuenta con un diseñador de transiciones muy preciso. 
                   li
                     i.fas.fa-caret-right
-                    |	Puede desarrollar diversos comportamientos: permitiendo la creación de pequeñas interacciones en multi pantalla, permitiendo agregar al contenido animaciones en bucle, botones, animaciones de desplazamiento o interruptores.
+                    |	Puede desarrollar diversos comportamientos: permitiendo la creación de pequeñas interacciones en multipantalla, permitiendo agregar al contenido animaciones en bucle, botones, animaciones de desplazamiento o interruptores.
                   li
                     i.fas.fa-caret-right
                     |	Su recurso de desplazamiento: da la posibilidad de crear áreas desplazables simplemente con un clic, es de mucha utilidad ya que facilita la creación de animaciones.
@@ -261,7 +261,7 @@
                     p.m-0 Facilita una serie de acciones, con las cuales permite desplazarse, registrar correos electrónicos, <i>GIF</i>, audios, videos, cambiar de pantalla, realizar una llamada, visitar una URL, entre otras.
                   li
                     i.fas.fa-caret-right
-                    |	Permite exportar como HTML: es perfecto para conseguir una vista preliminar y almacenar el proyecto, no requiriendo conexión, permite descargar todos los archivos Javascript, CCS y HTML, y de igual forma todos los activos del proyecto.
+                    |	Permite exportar como HTML: es perfecto para conseguir una vista preliminar y almacenar el proyecto, no requiriendo conexión, permite descargar todos los archivos JavaScript, CCS y HTML, y de igual forma todos los activos del proyecto.
 
     Separador
 
@@ -294,7 +294,7 @@
     #t_3_5.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
         h2 3.5 Etapas de prototipado
 
-    p.mb-5 Al igual que en cualquier tipo de audiovisual, los guiones multimedia también cuentan con la etapa de preproducción, producción y postproducción:
+    p.mb-5 En este aparte se mencionan las tres etapas de prototipado para tener en cuenta a la hora de diseñar un prototipo de proyecto interactivo.
 
     .bg_fondo5-t3
       .row.justify-content-center.align-items-center.mb-5
